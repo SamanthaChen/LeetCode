@@ -11,13 +11,17 @@
 #include "Integer2Roman.h"
 #include "SpiralMatrixII.h"
 #include <vector>
+#include <string>
 #include "MinimumWindowSubstring.h"
+#include "CompareVersionNumbers.h"
+#include "ReverseInteger.h"
 using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	MinimumWindowSubstring MinimumWindowSubstring;
-	string s = MinimumWindowSubstring.minWindow_Dwyer2("aa", "aa");
+	int a = INT_MAX;
+	ReverseInteger ReverseInteger;
+	ReverseInteger.reverse_Dwyer(1534236469);
 	return 0;
 }
 

@@ -79,12 +79,14 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CompareVersionNumbers.h" />
     <ClInclude Include="ContainsDuplicateII.h" />
     <ClInclude Include="ExcelSheetColumnNumber.h" />
     <ClInclude Include="Integer2Roman.h" />
     <ClInclude Include="MinimumWindowSubstring.h" />
     <ClInclude Include="Permutations.h" />
     <ClInclude Include="RemoveDuplicatesFromSortedListII.h" />
+    <ClInclude Include="ReverseInteger.h" />
     <ClInclude Include="SearchA2DMatrix.h" />
     <ClInclude Include="SpiralMatrixII.h" />
     <ClInclude Include="stdafx.h" />
@@ -92,6 +94,7 @@
     <ClInclude Include="ValidPalindrome.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CompareVersionNumbers.cpp" />
     <ClCompile Include="ContainsDuplicateII.cpp" />
     <ClCompile Include="ExcelSheetColumnNumber.cpp" />
     <ClCompile Include="Integer2Roman.cpp" />
@@ -99,6 +102,7 @@
     <ClCompile Include="MinimumWindowSubstring.cpp" />
     <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="RemoveDuplicatesFromSortedListII.cpp" />
+    <ClCompile Include="ReverseInteger.cpp" />
     <ClCompile Include="SearchA2DMatrix.cpp" />
     <ClCompile Include="SpiralMatrixII.cpp" />
     <ClCompile Include="stdafx.cpp">

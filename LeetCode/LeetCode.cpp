@@ -15,13 +15,21 @@
 #include "MinimumWindowSubstring.h"
 #include "CompareVersionNumbers.h"
 #include "ReverseInteger.h"
+#include "PalindromeNumber.h"
+#include "SummaryRanges.h"
+
 using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	int a = INT_MAX;
-	ReverseInteger ReverseInteger;
-	ReverseInteger.reverse_Dwyer(1534236469);
+	deque<int> q;
+	q.push_back(2);
+	q.push_back(7);
+	auto x = q.front();
+	cout << q.front() << " " << q.back() << endl;
+	SummaryRanges SummaryRanges;
+	vector<int> v{-1};
+	SummaryRanges.summaryRanges_Dwyer(v);
 	return 0;
 }
 

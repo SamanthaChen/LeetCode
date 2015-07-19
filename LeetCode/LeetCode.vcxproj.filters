@@ -57,6 +57,33 @@
     <ClInclude Include="ReverseInteger.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MinimumDepthofBinaryTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PalindromeNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PalindromeLinkedList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementQueueusingStacks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerofTwo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SummaryRanges.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PathSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InvertBinaryTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LowestCommonAncestorofaBinarySearchTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -96,6 +123,33 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="ReverseInteger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumDepthofBinaryTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PalindromeNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PalindromeLinkedList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementQueueusingStacks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerofTwo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SummaryRanges.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PathSum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InvertBinaryTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LowestCommonAncestorofaBinarySearchTree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

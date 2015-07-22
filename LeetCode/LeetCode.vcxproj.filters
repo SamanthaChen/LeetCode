@@ -84,6 +84,18 @@
     <ClInclude Include="LowestCommonAncestorofaBinarySearchTree.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ImplementStackusingQueues.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainsDuplicate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseLinkedList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IsomorphicStrings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -150,6 +162,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="LowestCommonAncestorofaBinarySearchTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementStackusingQueues.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainsDuplicate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseLinkedList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IsomorphicStrings.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -16,20 +16,24 @@
 #include "CompareVersionNumbers.h"
 #include "ReverseInteger.h"
 #include "PalindromeNumber.h"
-#include "SummaryRanges.h"
+#include "IsomorphicStrings.h"
 
 using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	deque<int> q;
-	q.push_back(2);
-	q.push_back(7);
-	auto x = q.front();
-	cout << q.front() << " " << q.back() << endl;
-	SummaryRanges SummaryRanges;
-	vector<int> v{-1};
-	SummaryRanges.summaryRanges_Dwyer(v);
+	vector<int> nums = { 2, 2,2 };
+	int val = 2;
+	if (nums.empty()) return 0;
+	sort(nums.begin(), nums.end());
+	auto begin = nums.begin();
+	while (begin != nums.end() && (*begin) <= val){
+		if ((*begin) == val){
+			begin = nums.erase(begin);
+		}else
+			++begin;
+	}
+	return nums.size();
 	return 0;
 }
 

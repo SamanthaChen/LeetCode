@@ -80,11 +80,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CompareVersionNumbers.h" />
+    <ClInclude Include="ContainsDuplicate.h" />
     <ClInclude Include="ContainsDuplicateII.h" />
     <ClInclude Include="ExcelSheetColumnNumber.h" />
     <ClInclude Include="ImplementQueueusingStacks.h" />
+    <ClInclude Include="ImplementStackusingQueues.h" />
     <ClInclude Include="Integer2Roman.h" />
     <ClInclude Include="InvertBinaryTree.h" />
+    <ClInclude Include="IsomorphicStrings.h" />
     <ClInclude Include="LowestCommonAncestorofaBinarySearchTree.h" />
     <ClInclude Include="MinimumDepthofBinaryTree.h" />
     <ClInclude Include="MinimumWindowSubstring.h" />
@@ -95,6 +98,7 @@
     <ClInclude Include="PowerofTwo.h" />
     <ClInclude Include="RemoveDuplicatesFromSortedListII.h" />
     <ClInclude Include="ReverseInteger.h" />
+    <ClInclude Include="ReverseLinkedList.h" />
     <ClInclude Include="SearchA2DMatrix.h" />
     <ClInclude Include="SpiralMatrixII.h" />
     <ClInclude Include="stdafx.h" />
@@ -104,11 +108,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CompareVersionNumbers.cpp" />
+    <ClCompile Include="ContainsDuplicate.cpp" />
     <ClCompile Include="ContainsDuplicateII.cpp" />
     <ClCompile Include="ExcelSheetColumnNumber.cpp" />
     <ClCompile Include="ImplementQueueusingStacks.cpp" />
+    <ClCompile Include="ImplementStackusingQueues.cpp" />
     <ClCompile Include="Integer2Roman.cpp" />
     <ClCompile Include="InvertBinaryTree.cpp" />
+    <ClCompile Include="IsomorphicStrings.cpp" />
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="LowestCommonAncestorofaBinarySearchTree.cpp" />
     <ClCompile Include="MinimumDepthofBinaryTree.cpp" />
@@ -120,6 +127,7 @@
     <ClCompile Include="PowerofTwo.cpp" />
     <ClCompile Include="RemoveDuplicatesFromSortedListII.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
+    <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="SearchA2DMatrix.cpp" />
     <ClCompile Include="SpiralMatrixII.cpp" />
     <ClCompile Include="stdafx.cpp">

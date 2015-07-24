@@ -79,20 +79,27 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ClimbingStairs.h" />
     <ClInclude Include="CompareVersionNumbers.h" />
     <ClInclude Include="ContainsDuplicate.h" />
     <ClInclude Include="ContainsDuplicateII.h" />
+    <ClInclude Include="CountPrimes.h" />
     <ClInclude Include="ExcelSheetColumnNumber.h" />
     <ClInclude Include="ImplementQueueusingStacks.h" />
     <ClInclude Include="ImplementStackusingQueues.h" />
     <ClInclude Include="Integer2Roman.h" />
+    <ClInclude Include="IntersectionofTwoLinkedLists.h" />
     <ClInclude Include="InvertBinaryTree.h" />
     <ClInclude Include="IsomorphicStrings.h" />
+    <ClInclude Include="LeetCode.h" />
+    <ClInclude Include="LengthofLastWord.h" />
+    <ClInclude Include="LongestCommonPrefix.h" />
     <ClInclude Include="LowestCommonAncestorofaBinarySearchTree.h" />
     <ClInclude Include="MinimumDepthofBinaryTree.h" />
     <ClInclude Include="MinimumWindowSubstring.h" />
     <ClInclude Include="PalindromeLinkedList.h" />
     <ClInclude Include="PalindromeNumber.h" />
+    <ClInclude Include="PascalsTriangle.h" />
     <ClInclude Include="PathSum.h" />
     <ClInclude Include="Permutations.h" />
     <ClInclude Include="PowerofTwo.h" />
@@ -105,23 +112,30 @@
     <ClInclude Include="SummaryRanges.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="ValidPalindrome.h" />
+    <ClInclude Include="ValidParentheses.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="CompareVersionNumbers.cpp" />
     <ClCompile Include="ContainsDuplicate.cpp" />
     <ClCompile Include="ContainsDuplicateII.cpp" />
+    <ClCompile Include="CountPrimes.cpp" />
     <ClCompile Include="ExcelSheetColumnNumber.cpp" />
     <ClCompile Include="ImplementQueueusingStacks.cpp" />
     <ClCompile Include="ImplementStackusingQueues.cpp" />
     <ClCompile Include="Integer2Roman.cpp" />
+    <ClCompile Include="IntersectionofTwoLinkedLists.cpp" />
     <ClCompile Include="InvertBinaryTree.cpp" />
     <ClCompile Include="IsomorphicStrings.cpp" />
     <ClCompile Include="LeetCode.cpp" />
+    <ClCompile Include="LengthofLastWord.cpp" />
+    <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="LowestCommonAncestorofaBinarySearchTree.cpp" />
     <ClCompile Include="MinimumDepthofBinaryTree.cpp" />
     <ClCompile Include="MinimumWindowSubstring.cpp" />
     <ClCompile Include="PalindromeLinkedList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
+    <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PathSum.cpp" />
     <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="PowerofTwo.cpp" />
@@ -136,6 +150,7 @@
     </ClCompile>
     <ClCompile Include="SummaryRanges.cpp" />
     <ClCompile Include="ValidPalindrome.cpp" />
+    <ClCompile Include="ValidParentheses.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

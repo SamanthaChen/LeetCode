@@ -16,24 +16,14 @@
 #include "CompareVersionNumbers.h"
 #include "ReverseInteger.h"
 #include "PalindromeNumber.h"
-#include "IsomorphicStrings.h"
+#include "ValidParentheses.h"
 
 using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	vector<int> nums = { 2, 2,2 };
-	int val = 2;
-	if (nums.empty()) return 0;
-	sort(nums.begin(), nums.end());
-	auto begin = nums.begin();
-	while (begin != nums.end() && (*begin) <= val){
-		if ((*begin) == val){
-			begin = nums.erase(begin);
-		}else
-			++begin;
-	}
-	return nums.size();
+	ValidParentheses ValidParentheses;
+	ValidParentheses.isValid("]");
 	return 0;
 }
 

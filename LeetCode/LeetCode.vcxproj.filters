@@ -96,6 +96,30 @@
     <ClInclude Include="IsomorphicStrings.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="PascalsTriangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LeetCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LengthofLastWord.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClimbingStairs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LongestCommonPrefix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ValidParentheses.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IntersectionofTwoLinkedLists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CountPrimes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -174,6 +198,27 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="IsomorphicStrings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PascalsTriangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LengthofLastWord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClimbingStairs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestCommonPrefix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidParentheses.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IntersectionofTwoLinkedLists.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CountPrimes.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

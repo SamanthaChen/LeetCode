@@ -2,28 +2,13 @@
 //
 
 #include "stdafx.h"
-#include <vector>
-#include <iostream>
-#include "ContainsDuplicateII.h"
-#include "Permutations.h"
-#include "ExcelSheetColumnNumber.h"
-#include "ValidPalindrome.h"
-#include "Integer2Roman.h"
-#include "SpiralMatrixII.h"
-#include <vector>
-#include <string>
-#include "MinimumWindowSubstring.h"
-#include "CompareVersionNumbers.h"
-#include "ReverseInteger.h"
-#include "PalindromeNumber.h"
-#include "ValidParentheses.h"
-
-using namespace std;
+#include "LeetCode.h"
+#include "Numberof1Bits.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	ValidParentheses ValidParentheses;
-	ValidParentheses.isValid("]");
+	Numberof1Bits Numberof1Bits;
+	Numberof1Bits.hammingWeight(3);
 	return 0;
 }
 

@@ -117,7 +117,28 @@
     <ClInclude Include="IntersectionofTwoLinkedLists.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="CountPrimes.h">
+    <ClInclude Include="DeleteNodeinaLinked.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MaximumDepthofBinaryTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SameTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Numberof1Bits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreePreorderTraversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeInorderTraversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WordBreak.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -126,99 +147,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="LeetCode.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ContainsDuplicateII.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Permutations.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ExcelSheetColumnNumber.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ValidPalindrome.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Integer2Roman.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="RemoveDuplicatesFromSortedListII.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="SearchA2DMatrix.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="SpiralMatrixII.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="MinimumWindowSubstring.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CompareVersionNumbers.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ReverseInteger.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="MinimumDepthofBinaryTree.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="PalindromeNumber.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="PalindromeLinkedList.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ImplementQueueusingStacks.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="PowerofTwo.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="SummaryRanges.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="PathSum.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="InvertBinaryTree.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="LowestCommonAncestorofaBinarySearchTree.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ImplementStackusingQueues.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ContainsDuplicate.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ReverseLinkedList.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="IsomorphicStrings.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="PascalsTriangle.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="LengthofLastWord.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ClimbingStairs.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="LongestCommonPrefix.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ValidParentheses.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="IntersectionofTwoLinkedLists.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CountPrimes.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

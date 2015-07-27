@@ -141,6 +141,42 @@
     <ClInclude Include="WordBreak.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="SortList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HappyNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HouseRobber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BalancedBinaryTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeLevelOrderTraversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeLevelOrderTraversalII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseBits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeTwoSortedLists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MajorityElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveNthNodeFromEndofList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AddBinary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

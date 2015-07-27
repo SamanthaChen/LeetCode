@@ -2,13 +2,10 @@
 //
 
 #include "stdafx.h"
-#include "LeetCode.h"
-#include "Numberof1Bits.h"
+#include "AddBinary.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	Numberof1Bits Numberof1Bits;
-	Numberof1Bits.hammingWeight(3);
 	return 0;
 }
 

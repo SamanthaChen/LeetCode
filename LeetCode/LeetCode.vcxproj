@@ -79,7 +79,11 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AddBinary.h" />
+    <ClInclude Include="BalancedBinaryTree.h" />
     <ClInclude Include="BinaryTreeInorderTraversal.h" />
+    <ClInclude Include="BinaryTreeLevelOrderTraversal.h" />
+    <ClInclude Include="BinaryTreeLevelOrderTraversalII.h" />
     <ClInclude Include="BinaryTreePreorderTraversal.h" />
     <ClInclude Include="ClimbingStairs.h" />
     <ClInclude Include="CompareVersionNumbers.h" />
@@ -87,6 +91,8 @@
     <ClInclude Include="ContainsDuplicateII.h" />
     <ClInclude Include="DeleteNodeinaLinked.h" />
     <ClInclude Include="ExcelSheetColumnNumber.h" />
+    <ClInclude Include="HappyNumber.h" />
+    <ClInclude Include="HouseRobber.h" />
     <ClInclude Include="ImplementQueueusingStacks.h" />
     <ClInclude Include="ImplementStackusingQueues.h" />
     <ClInclude Include="Integer2Roman.h" />
@@ -97,7 +103,9 @@
     <ClInclude Include="LengthofLastWord.h" />
     <ClInclude Include="LongestCommonPrefix.h" />
     <ClInclude Include="LowestCommonAncestorofaBinarySearchTree.h" />
+    <ClInclude Include="MajorityElement.h" />
     <ClInclude Include="MaximumDepthofBinaryTree.h" />
+    <ClInclude Include="MergeTwoSortedLists.h" />
     <ClInclude Include="MinimumDepthofBinaryTree.h" />
     <ClInclude Include="MinimumWindowSubstring.h" />
     <ClInclude Include="Numberof1Bits.h" />
@@ -108,11 +116,15 @@
     <ClInclude Include="Permutations.h" />
     <ClInclude Include="PowerofTwo.h" />
     <ClInclude Include="RemoveDuplicatesFromSortedListII.h" />
+    <ClInclude Include="RemoveNthNodeFromEndofList.h" />
+    <ClInclude Include="ReverseBits.h" />
     <ClInclude Include="ReverseInteger.h" />
     <ClInclude Include="ReverseLinkedList.h" />
+    <ClInclude Include="RotateArray.h" />
     <ClInclude Include="SameTree.h" />
     <ClInclude Include="SearchA2DMatrix.h" />
     <ClInclude Include="SingleNumber.h" />
+    <ClInclude Include="SortList.h" />
     <ClInclude Include="SpiralMatrixII.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="SummaryRanges.h" />

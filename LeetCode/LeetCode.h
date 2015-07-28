@@ -8,6 +8,8 @@
 #include <set>
 #include <functional>
 #include <stdint.h>
+#include <memory>
+#include <map>
 using namespace std;
 
 struct ListNode {

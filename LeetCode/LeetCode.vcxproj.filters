@@ -177,6 +177,24 @@
     <ClInclude Include="AddBinary.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="RemoveDuplicatesfromSortedList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RomantoInteger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveDuplicatesfromSortedArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PascalTriangleII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FactorialTrailingZeroes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SymmetricTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

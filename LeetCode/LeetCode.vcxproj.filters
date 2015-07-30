@@ -195,6 +195,15 @@
     <ClInclude Include="SymmetricTree.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LinkedListCycle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PopulatingNextRightPointersinEachNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UniqueBinarySearchTrees.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

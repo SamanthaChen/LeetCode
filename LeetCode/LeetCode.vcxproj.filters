@@ -204,12 +204,48 @@
     <ClInclude Include="UniqueBinarySearchTrees.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="SearchInsertPosition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleNumberII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSortedArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlusOne.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductofArrayExceptSelf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StringtoInteger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="LeetCode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchInsertPosition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleNumberII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSortedArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlusOne.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductofArrayExceptSelf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StringtoInteger.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

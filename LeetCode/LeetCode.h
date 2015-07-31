@@ -10,6 +10,8 @@
 #include <stdint.h>
 #include <memory>
 #include <map>
+#include <iostream>
+#include <ctype.h>
 using namespace std;
 
 struct ListNode {

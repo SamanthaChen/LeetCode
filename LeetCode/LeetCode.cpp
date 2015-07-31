@@ -2,14 +2,14 @@
 //
 
 #include "stdafx.h"
-#include "PascalTriangleII.h"
+#include "StringtoInteger.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	PascalTriangleII PascalTriangleII;
-	PascalTriangleII.getRow_Bieren(5);
-	string s = "fadgargab";
-	auto d = s.substr(1, 3);
+	int b = atoi("1");
+	StringtoInteger StringtoInteger;
+	StringtoInteger.myAtoi("1");
+	bool a = isdigit('1');
 	return 0;
 }
 

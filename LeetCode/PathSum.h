@@ -20,7 +20,7 @@ return true, as there exist a root-to-leaf path 5->4->11->2 which sum is 22.
 *¸ÐÎò£º
 ***********************/
 #pragma once
-
+#include "LeetCode.h"
 struct TreeNode {
 	int val;
 	TreeNode *left;

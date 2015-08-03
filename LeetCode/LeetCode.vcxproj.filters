@@ -230,23 +230,5 @@
     <ClCompile Include="LeetCode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SearchInsertPosition.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="SingleNumberII.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="MergeSortedArray.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="PlusOne.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ProductofArrayExceptSelf.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="StringtoInteger.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

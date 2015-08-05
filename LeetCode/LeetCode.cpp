@@ -2,14 +2,12 @@
 //
 
 #include "stdafx.h"
-#include "StringtoInteger.h"
+#include "CountandSay.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	int b = atoi("1");
-	StringtoInteger StringtoInteger;
-	StringtoInteger.myAtoi("1");
-	bool a = isdigit('1');
+	CountandSay CountandSay;
+	string a = CountandSay.countAndSay(10);
 	return 0;
 }
 

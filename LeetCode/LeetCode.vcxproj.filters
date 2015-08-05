@@ -222,6 +222,18 @@
     <ClInclude Include="StringtoInteger.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ValidAnagram.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MinStack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementstrStr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CountandSay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

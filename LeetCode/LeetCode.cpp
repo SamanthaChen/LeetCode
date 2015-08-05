@@ -2,12 +2,12 @@
 //
 
 #include "stdafx.h"
-#include "CountandSay.h"
+#include "RectangleArea.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	CountandSay CountandSay;
-	string a = CountandSay.countAndSay(10);
+	RectangleArea RectangleArea;
+	RectangleArea.computeArea(-2, -2, 2, 2, -2, -2, 2, 2);
 	return 0;
 }
 

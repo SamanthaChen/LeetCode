@@ -234,6 +234,18 @@
     <ClInclude Include="CountandSay.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ExcelSheetColumnTitle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZigZagConversion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ValidSudoku.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleArea.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

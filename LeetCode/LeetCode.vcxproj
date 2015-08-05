@@ -92,6 +92,7 @@
     <ClInclude Include="CountandSay.h" />
     <ClInclude Include="DeleteNodeinaLinked.h" />
     <ClInclude Include="ExcelSheetColumnNumber.h" />
+    <ClInclude Include="ExcelSheetColumnTitle.h" />
     <ClInclude Include="FactorialTrailingZeroes.h" />
     <ClInclude Include="HappyNumber.h" />
     <ClInclude Include="HouseRobber.h" />
@@ -125,6 +126,7 @@
     <ClInclude Include="PopulatingNextRightPointersinEachNode.h" />
     <ClInclude Include="PowerofTwo.h" />
     <ClInclude Include="ProductofArrayExceptSelf.h" />
+    <ClInclude Include="RectangleArea.h" />
     <ClInclude Include="RemoveDuplicatesfromSortedArray.h" />
     <ClInclude Include="RemoveDuplicatesfromSortedList.h" />
     <ClInclude Include="RemoveDuplicatesFromSortedListII.h" />
@@ -150,7 +152,9 @@
     <ClInclude Include="ValidAnagram.h" />
     <ClInclude Include="ValidPalindrome.h" />
     <ClInclude Include="ValidParentheses.h" />
+    <ClInclude Include="ValidSudoku.h" />
     <ClInclude Include="WordBreak.h" />
+    <ClInclude Include="ZigZagConversion.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LeetCode.cpp" />

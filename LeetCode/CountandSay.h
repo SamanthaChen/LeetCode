@@ -14,8 +14,11 @@ Note: The sequence of integers will be represented as a string.
 class CountandSay
 {
 public:
-	CountandSay();
-	~CountandSay();
+	/*
+	不算快8ms
+	但大家基本都是一样的做法
+	另外注意int转string用to_string
+	*/
 	string countAndSay(int n) {
 		if (n == 0) return "";
 		if (n == 1) return "1";
@@ -24,21 +27,18 @@ public:
 			int count = 0;
 			char val = oldstr[0];
 			string newstr;
-			stringstream ss;
 			for (size_t j = 0; j < oldstr.size(); j++){
 				if (oldstr[j] == val){
 					++count;
 				}
 				else{
-					ss << count;
-					newstr = newstr+ss.str();
+					newstr = newstr+to_string(count);
 					newstr = newstr + val;
 					count = 1;
 					val = oldstr[j];
 				}
 			}
-			ss << count;
-			newstr = newstr + ss.str();
+			newstr = newstr + to_string(count);
 			newstr = newstr + val;
 			oldstr = newstr;
 		}

@@ -1,3 +1,4 @@
+//这个是懒汉模式
 #pragma once
 #include "../LeetCode.h"
 class Singleton

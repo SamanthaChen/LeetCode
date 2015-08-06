@@ -2,12 +2,12 @@
 //
 
 #include "stdafx.h"
-#include "RectangleArea.h"
+#include "NQueens.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	RectangleArea RectangleArea;
-	RectangleArea.computeArea(-2, -2, 2, 2, -2, -2, 2, 2);
+	NQueens NQueens;
+	NQueens.solveNQueens(4);
 	return 0;
 }
 

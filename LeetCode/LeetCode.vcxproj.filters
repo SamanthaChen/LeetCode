@@ -20,5 +20,41 @@
     <ClCompile Include="LeetCode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LongestPalindromicSubstring.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainerWithMostWater.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LowestCommonAncestorofaBinaryTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FindPeakElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Searcha2DMatrixII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KthSmallestElementinaBST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DivideTwoIntegers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LongestPalindromicSubstring.h" />
+    <ClInclude Include="ContainerWithMostWater.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="LowestCommonAncestorofaBinaryTree.h" />
+    <ClInclude Include="FindPeakElement.h" />
+    <ClInclude Include="Searcha2DMatrixII.h" />
+    <ClInclude Include="KthSmallestElementinaBST.h" />
+    <ClInclude Include="DivideTwoIntegers.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LeetCode.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

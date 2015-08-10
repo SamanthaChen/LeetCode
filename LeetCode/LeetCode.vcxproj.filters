@@ -23,6 +23,9 @@
     <ClCompile Include="LeetCode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ReorderList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
@@ -294,6 +297,11 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ZigZagConversion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MergekSortedLists.h" />
+    <ClInclude Include="ReorderList.h" />
+    <ClInclude Include="ReverseNodesinkGroup.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

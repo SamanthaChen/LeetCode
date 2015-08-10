@@ -2,13 +2,17 @@
 //
 
 #include "stdafx.h"
-#include "FindPeakElement.h"
+#include "ReverseNodesinkGroup.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	FindPeakElement FindPeakElement;
-	vector<int> v{ 1,2,1 };
-	FindPeakElement.findPeakElement(v);
+	ReverseNodesinkGroup ReverseNodesinkGroup;
+	ListNode *a = new ListNode(1), *b = new ListNode(2), *c = new ListNode(3), *d = new ListNode(4);
+	a->next = b;
+	b->next = c;
+	c->next = d;
+	vector<ListNode*> v{a,c};
+	ReverseNodesinkGroup.reverseKGroup(a,2);
 	return 0;
 }
 

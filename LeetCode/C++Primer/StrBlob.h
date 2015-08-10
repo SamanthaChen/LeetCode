@@ -10,7 +10,7 @@ public:
 	~StrBlob();
 	StrBlob(initializer_list < string> il);
 	size_type size() const{ return data->size(); }
-	bool empty() const{ return data->empty; }
+	bool empty() const{ return data->empty(); }
 	void push_back(const string &t){ data->push_back(t); }
 	void pop_back();
 	const string& front();

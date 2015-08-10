@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LeetCode.cpp" />
+    <ClCompile Include="ReorderList.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -128,6 +129,7 @@
     <ClInclude Include="MaximalSquare.h" />
     <ClInclude Include="MaximumDepthofBinaryTree.h" />
     <ClInclude Include="MaximumSubarray.h" />
+    <ClInclude Include="MergekSortedLists.h" />
     <ClInclude Include="MergeSortedArray.h" />
     <ClInclude Include="MergeTwoSortedLists.h" />
     <ClInclude Include="MinimumDepthofBinaryTree.h" />
@@ -151,10 +153,12 @@
     <ClInclude Include="RemoveDuplicatesfromSortedList.h" />
     <ClInclude Include="RemoveDuplicatesFromSortedListII.h" />
     <ClInclude Include="RemoveNthNodeFromEndofList.h" />
+    <ClInclude Include="ReorderList.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="ReverseBits.h" />
     <ClInclude Include="ReverseInteger.h" />
     <ClInclude Include="ReverseLinkedList.h" />
+    <ClInclude Include="ReverseNodesinkGroup.h" />
     <ClInclude Include="RomantoInteger.h" />
     <ClInclude Include="RotateArray.h" />
     <ClInclude Include="SameTree.h" />

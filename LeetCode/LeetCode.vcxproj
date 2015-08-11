@@ -80,7 +80,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LeetCode.cpp" />
-    <ClCompile Include="ReorderList.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -100,6 +99,7 @@
     <ClInclude Include="ContainsDuplicateII.h" />
     <ClInclude Include="ConvertSortedArraytoBinarySearchTree.h" />
     <ClInclude Include="ConvertSortedListtoBinarySearchTree.h" />
+    <ClInclude Include="CopyListwithRandomPointer.h" />
     <ClInclude Include="CountandSay.h" />
     <ClInclude Include="CountPrimes.h" />
     <ClInclude Include="DeleteNodeinaLinked.h" />
@@ -121,6 +121,7 @@
     <ClInclude Include="LeetCode.h" />
     <ClInclude Include="LengthofLastWord.h" />
     <ClInclude Include="LinkedListCycle.h" />
+    <ClInclude Include="LinkedListCycleII.h" />
     <ClInclude Include="LongestCommonPrefix.h" />
     <ClInclude Include="LongestPalindromicSubstring.h" />
     <ClInclude Include="LowestCommonAncestorofaBinarySearchTree.h" />
@@ -140,6 +141,7 @@
     <ClInclude Include="Numberof1Bits.h" />
     <ClInclude Include="PalindromeLinkedList.h" />
     <ClInclude Include="PalindromeNumber.h" />
+    <ClInclude Include="PartitionList.h" />
     <ClInclude Include="PascalsTriangle.h" />
     <ClInclude Include="PascalTriangleII.h" />
     <ClInclude Include="PathSum.h" />
@@ -150,6 +152,7 @@
     <ClInclude Include="ProductofArrayExceptSelf.h" />
     <ClInclude Include="RectangleArea.h" />
     <ClInclude Include="RemoveDuplicatesfromSortedArray.h" />
+    <ClInclude Include="RemoveDuplicatesfromSortedArrayII.h" />
     <ClInclude Include="RemoveDuplicatesfromSortedList.h" />
     <ClInclude Include="RemoveDuplicatesFromSortedListII.h" />
     <ClInclude Include="RemoveNthNodeFromEndofList.h" />
@@ -158,9 +161,11 @@
     <ClInclude Include="ReverseBits.h" />
     <ClInclude Include="ReverseInteger.h" />
     <ClInclude Include="ReverseLinkedList.h" />
+    <ClInclude Include="ReverseLinkedListII.h" />
     <ClInclude Include="ReverseNodesinkGroup.h" />
     <ClInclude Include="RomantoInteger.h" />
     <ClInclude Include="RotateArray.h" />
+    <ClInclude Include="RotateList.h" />
     <ClInclude Include="SameTree.h" />
     <ClInclude Include="SearchA2DMatrix.h" />
     <ClInclude Include="Searcha2DMatrixII.h" />
@@ -172,6 +177,7 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="StringtoInteger.h" />
     <ClInclude Include="SummaryRanges.h" />
+    <ClInclude Include="SwapNodesinPairs.h" />
     <ClInclude Include="SymmetricTree.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="UniqueBinarySearchTrees.h" />

@@ -23,9 +23,6 @@
     <ClCompile Include="LeetCode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ReorderList.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
@@ -299,9 +296,34 @@
     <ClInclude Include="ZigZagConversion.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="MergekSortedLists.h" />
-    <ClInclude Include="ReorderList.h" />
     <ClInclude Include="ReverseNodesinkGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PartitionList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReorderList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapNodesinPairs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MergekSortedLists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyListwithRandomPointer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedListCycleII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveDuplicatesfromSortedArrayII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseLinkedListII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateList.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

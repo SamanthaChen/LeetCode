@@ -2,17 +2,13 @@
 //
 
 #include "stdafx.h"
-#include "ReverseNodesinkGroup.h"
+#include "RemoveDuplicatesfromSortedArrayII.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	ReverseNodesinkGroup ReverseNodesinkGroup;
-	ListNode *a = new ListNode(1), *b = new ListNode(2), *c = new ListNode(3), *d = new ListNode(4);
-	a->next = b;
-	b->next = c;
-	c->next = d;
-	vector<ListNode*> v{a,c};
-	ReverseNodesinkGroup.reverseKGroup(a,2);
+	RemoveDuplicatesfromSortedArrayII RemoveDuplicatesfromSortedArrayII;
+	vector<int> v{1,2,2};
+	RemoveDuplicatesfromSortedArrayII.removeDuplicates(v);
 	return 0;
 }
 

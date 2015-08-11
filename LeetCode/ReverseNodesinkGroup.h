@@ -21,13 +21,17 @@ class ReverseNodesinkGroup
 public:
 	/*
 	感觉这个题就是看会不会做，时间复杂度就是nk了，没法搞到lgn
+	这个方法不好 我放弃了
+	想到一个递归的方法
+	肯定可以大大简化代码量
+	直接别看这里看下面的另一个函数！！！！！！！！！！！！！失败
 	*/
-	ListNode* reverseKGroup(ListNode* head, int k) {
+	ListNode* reverseKGroup_DwyerBad(ListNode* head, int k) {
 		if (!head || k < 2) return head;
-		ListNode* pre = head, *temp, *realHead=head;
+		ListNode* pre = head, *temp, *realHead = head;
 		head = head->next;
 		bool theFirstHead = true;
-		ListNode* prepre = pre,*preprepre;
+		ListNode* prepre = pre, *preprepre;
 		while (head) {
 			int i = k - 1;
 			ListNode* headBackupThisCycle = pre;
@@ -61,7 +65,7 @@ public:
 			else {//说明k越界了应该再把最后一次的给反过来
 				ListNode* a = pre;
 				head = pre->next;
-				while (i++!=k-1) {
+				while (i++ != k - 1) {
 					temp = head->next;
 					head->next = pre;
 					pre = head;
@@ -72,6 +76,35 @@ public:
 			}
 		}
 		return realHead;
+	}
+
+	/*
+	递归用起来
+	草！！！！！用递归瞬间搞定啊！！！！！！！！
+	而且是最快的24ms
+	*/
+	ListNode* reverseKGroup(ListNode* head, int k) {
+		if (!head || k < 2) return head;
+		ListNode* headBackup = head, *temp;
+		//判断k比链表长的情况
+		for (int i = k - 1;i > 0;--i) {
+			head = head->next;
+			if (!head)
+				return headBackup;
+		}
+		head = headBackup;
+		ListNode *pre = head, *prepre = head;
+		head = head->next;
+		int i = k - 1;
+		while (i) {
+			--i;
+			temp = head->next;
+			head->next = pre;
+			pre = head;
+			head = temp;
+		}
+		prepre->next = reverseKGroup(head,k);
+		return pre;
 	}
 };
 

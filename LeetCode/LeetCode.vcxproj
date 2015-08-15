@@ -87,11 +87,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddBinary.h" />
+    <ClInclude Include="AddTwoNumbers.h" />
     <ClInclude Include="BalancedBinaryTree.h" />
     <ClInclude Include="BinaryTreeInorderTraversal.h" />
     <ClInclude Include="BinaryTreeLevelOrderTraversal.h" />
     <ClInclude Include="BinaryTreeLevelOrderTraversalII.h" />
     <ClInclude Include="BinaryTreePreorderTraversal.h" />
+    <ClInclude Include="BinaryTreeRightSideView.h" />
     <ClInclude Include="ClimbingStairs.h" />
     <ClInclude Include="CompareVersionNumbers.h" />
     <ClInclude Include="ContainerWithMostWater.h" />
@@ -102,12 +104,16 @@
     <ClInclude Include="CopyListwithRandomPointer.h" />
     <ClInclude Include="CountandSay.h" />
     <ClInclude Include="CountPrimes.h" />
+    <ClInclude Include="CourseSchedule.h" />
+    <ClInclude Include="CourseScheduleII.h" />
     <ClInclude Include="DeleteNodeinaLinked.h" />
     <ClInclude Include="DivideTwoIntegers.h" />
     <ClInclude Include="ExcelSheetColumnNumber.h" />
     <ClInclude Include="ExcelSheetColumnTitle.h" />
     <ClInclude Include="FactorialTrailingZeroes.h" />
     <ClInclude Include="FindPeakElement.h" />
+    <ClInclude Include="FlattenBinaryTreetoLinkedList.h" />
+    <ClInclude Include="GroupAnagrams.h" />
     <ClInclude Include="HappyNumber.h" />
     <ClInclude Include="HouseRobber.h" />
     <ClInclude Include="ImplementQueueusingStacks.h" />
@@ -136,6 +142,7 @@
     <ClInclude Include="MinimumDepthofBinaryTree.h" />
     <ClInclude Include="MinimumWindowSubstring.h" />
     <ClInclude Include="MinStack.h" />
+    <ClInclude Include="MultiplyStrings.h" />
     <ClInclude Include="NQueens.h" />
     <ClInclude Include="NQueensII.h" />
     <ClInclude Include="Numberof1Bits.h" />
@@ -163,6 +170,7 @@
     <ClInclude Include="ReverseLinkedList.h" />
     <ClInclude Include="ReverseLinkedListII.h" />
     <ClInclude Include="ReverseNodesinkGroup.h" />
+    <ClInclude Include="ReverseWordsinaString.h" />
     <ClInclude Include="RomantoInteger.h" />
     <ClInclude Include="RotateArray.h" />
     <ClInclude Include="RotateList.h" />

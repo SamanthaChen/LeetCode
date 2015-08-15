@@ -326,6 +326,30 @@
     <ClInclude Include="RotateList.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="AddTwoNumbers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeRightSideView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseSchedule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseScheduleII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlattenBinaryTreetoLinkedList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupAnagrams.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplyStrings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseWordsinaString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LeetCode.rc">

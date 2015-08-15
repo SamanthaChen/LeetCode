@@ -15,6 +15,8 @@ public:
 	将每个节点copy一个连起来，然后在操作random节点
 	最后断开
 	返回
+	搞定116ms
+	注意不能破坏原有结构！！！！！！！！！！
 	*/
 	RandomListNode *copyRandomList(RandomListNode *head) {
 		if (!head) return head;
@@ -38,7 +40,7 @@ public:
 		//注意还不能破坏原有的结构，所以要把原有的还原回去
 		p = head;
 		RandomListNode *newHead = p->next;
-		while (p->next&&p->next->next) {
+		while (p->next) {
 			RandomListNode *temp = p->next;
 			p->next = p->next->next;
 			temp->next = temp->next->next;

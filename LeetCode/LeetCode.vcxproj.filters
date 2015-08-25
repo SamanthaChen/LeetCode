@@ -350,6 +350,24 @@
     <ClInclude Include="ReverseWordsinaString.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="BinaryTreePaths.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DifferentWaystoAddParentheses.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MissingNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UglyNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UglyNumberII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LeetCode.rc">

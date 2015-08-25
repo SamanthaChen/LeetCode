@@ -33,6 +33,33 @@
     <ClInclude Include="SingletonII.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlateAFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Plate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlateA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlateB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlateBFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gift.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GiftA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GiftB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -42,6 +69,33 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SingletonII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlateAFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Plate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlateA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlateB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlateBFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Gift.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GiftA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GiftB.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

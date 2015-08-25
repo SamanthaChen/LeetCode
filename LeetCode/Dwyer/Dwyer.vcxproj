@@ -145,6 +145,15 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Factory.h" />
+    <ClInclude Include="Gift.h" />
+    <ClInclude Include="GiftA.h" />
+    <ClInclude Include="GiftB.h" />
+    <ClInclude Include="Plate.h" />
+    <ClInclude Include="PlateA.h" />
+    <ClInclude Include="PlateAFactory.h" />
+    <ClInclude Include="PlateB.h" />
+    <ClInclude Include="PlateBFactory.h" />
     <ClInclude Include="QuickSort.h" />
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="SingletonII.h" />
@@ -153,6 +162,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Dwyer.cpp" />
+    <ClCompile Include="Factory.cpp" />
+    <ClCompile Include="Gift.cpp" />
+    <ClCompile Include="GiftA.cpp" />
+    <ClCompile Include="GiftB.cpp" />
+    <ClCompile Include="Plate.cpp" />
+    <ClCompile Include="PlateA.cpp" />
+    <ClCompile Include="PlateAFactory.cpp" />
+    <ClCompile Include="PlateB.cpp" />
+    <ClCompile Include="PlateBFactory.cpp" />
     <ClCompile Include="SingletonII.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

@@ -3,12 +3,21 @@
 
 #include "stdafx.h"
 #include "QuickSort.h"
-
+#include "PlateAFactory.h"
+#include "PlateBFactory.h"
 int main()
 {
-	vector<int> v{2,1,2,1,3,4,3,5,5,4,3};
-	QuickSort QuickSort;
-	QuickSort.quickSort(v);
+	Factory* A = new PlateAFactory();
+	Plate *p = A->createPlate();
+	Gift *pg = A->createGift();
+	p->setPrice();
+	pg->showGift();
+
+	Factory* B = new PlateBFactory();
+	Plate* q = B->createPlate();	
+	Gift *qg = B->createGift();
+	q->setPrice();
+	qg->showGift();
     return 0;
 }
 

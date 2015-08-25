@@ -115,6 +115,7 @@
     <ClInclude Include="FactorialTrailingZeroes.h" />
     <ClInclude Include="FindPeakElement.h" />
     <ClInclude Include="FlattenBinaryTreetoLinkedList.h" />
+    <ClInclude Include="FourSum.h" />
     <ClInclude Include="GroupAnagrams.h" />
     <ClInclude Include="HappyNumber.h" />
     <ClInclude Include="HouseRobber.h" />
@@ -132,6 +133,7 @@
     <ClInclude Include="LinkedListCycleII.h" />
     <ClInclude Include="LongestCommonPrefix.h" />
     <ClInclude Include="LongestPalindromicSubstring.h" />
+    <ClInclude Include="LongestSubstringWithoutRepeatingCharacters.h" />
     <ClInclude Include="LowestCommonAncestorofaBinarySearchTree.h" />
     <ClInclude Include="LowestCommonAncestorofaBinaryTree.h" />
     <ClInclude Include="MajorityElement.h" />
@@ -191,6 +193,7 @@
     <ClInclude Include="SwapNodesinPairs.h" />
     <ClInclude Include="SymmetricTree.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="ThreeSum.h" />
     <ClInclude Include="TwoSum.h" />
     <ClInclude Include="UglyNumber.h" />
     <ClInclude Include="UglyNumberII.h" />

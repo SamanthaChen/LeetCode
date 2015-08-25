@@ -368,6 +368,9 @@
     <ClInclude Include="UglyNumberII.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ThreeSum.h" />
+    <ClInclude Include="FourSum.h" />
+    <ClInclude Include="LongestSubstringWithoutRepeatingCharacters.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LeetCode.rc">

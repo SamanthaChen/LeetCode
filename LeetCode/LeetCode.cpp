@@ -2,13 +2,13 @@
 //
 
 #include "stdafx.h"
-#include "DifferentWaystoAddParentheses.h"
+#include "LongestSubstringWithoutRepeatingCharacters.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	DifferentWaystoAddParentheses DifferentWaystoAddParentheses;
-	string a = "3*4-5*6+9*7";
-	DifferentWaystoAddParentheses.diffWaysToCompute(a);
+	LongestSubstringWithoutRepeatingCharacters LongestSubstringWithoutRepeatingCharacters;
+	string a = "c";
+	LongestSubstringWithoutRepeatingCharacters.lengthOfLongestSubstring(a);
 	return 0;
 }
 

@@ -148,6 +148,7 @@
     <ClInclude Include="MinStack.h" />
     <ClInclude Include="MissingNumber.h" />
     <ClInclude Include="MultiplyStrings.h" />
+    <ClInclude Include="NextPermutation.h" />
     <ClInclude Include="NQueens.h" />
     <ClInclude Include="NQueensII.h" />
     <ClInclude Include="Numberof1Bits.h" />
@@ -158,6 +159,7 @@
     <ClInclude Include="PascalTriangleII.h" />
     <ClInclude Include="PathSum.h" />
     <ClInclude Include="Permutations.h" />
+    <ClInclude Include="PermutationSequence.h" />
     <ClInclude Include="PlusOne.h" />
     <ClInclude Include="PopulatingNextRightPointersinEachNode.h" />
     <ClInclude Include="PowerofTwo.h" />

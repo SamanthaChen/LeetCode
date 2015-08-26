@@ -2,13 +2,13 @@
 //
 
 #include "stdafx.h"
-#include "LongestSubstringWithoutRepeatingCharacters.h"
-
+#include "PermutationSequence.h"
 int _tmain(int argc, _TCHAR* argv[])
 {
-	LongestSubstringWithoutRepeatingCharacters LongestSubstringWithoutRepeatingCharacters;
-	string a = "c";
-	LongestSubstringWithoutRepeatingCharacters.lengthOfLongestSubstring(a);
+	int *p;
+	(long long *)p;
+	PermutationSequence PermutationSequence;
+	PermutationSequence.getPermutation(4, 18);
 	return 0;
 }
 

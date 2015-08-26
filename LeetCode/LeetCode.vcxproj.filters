@@ -371,6 +371,8 @@
     <ClInclude Include="ThreeSum.h" />
     <ClInclude Include="FourSum.h" />
     <ClInclude Include="LongestSubstringWithoutRepeatingCharacters.h" />
+    <ClInclude Include="NextPermutation.h" />
+    <ClInclude Include="PermutationSequence.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LeetCode.rc">

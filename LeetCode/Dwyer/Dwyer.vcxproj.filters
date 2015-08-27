@@ -60,6 +60,15 @@
     <ClInclude Include="GiftB.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Derived.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DerivedDerived.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -96,6 +105,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="GiftB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Derived.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivedDerived.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

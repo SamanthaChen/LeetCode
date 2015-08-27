@@ -113,6 +113,7 @@
     <ClInclude Include="ExcelSheetColumnNumber.h" />
     <ClInclude Include="ExcelSheetColumnTitle.h" />
     <ClInclude Include="FactorialTrailingZeroes.h" />
+    <ClInclude Include="FindMinimuminRotatedSortedArray.h" />
     <ClInclude Include="FindPeakElement.h" />
     <ClInclude Include="FlattenBinaryTreetoLinkedList.h" />
     <ClInclude Include="FourSum.h" />
@@ -196,6 +197,7 @@
     <ClInclude Include="SymmetricTree.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="ThreeSum.h" />
+    <ClInclude Include="ThreeSumClosest.h" />
     <ClInclude Include="TwoSum.h" />
     <ClInclude Include="UglyNumber.h" />
     <ClInclude Include="UglyNumberII.h" />

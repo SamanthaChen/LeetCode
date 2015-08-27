@@ -25,7 +25,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="resource.h" />
     <ClInclude Include="Searcha2DMatrixII.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -368,11 +367,30 @@
     <ClInclude Include="UglyNumberII.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="ThreeSum.h" />
-    <ClInclude Include="FourSum.h" />
-    <ClInclude Include="LongestSubstringWithoutRepeatingCharacters.h" />
-    <ClInclude Include="NextPermutation.h" />
-    <ClInclude Include="PermutationSequence.h" />
+    <ClInclude Include="FindMinimuminRotatedSortedArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FourSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LongestSubstringWithoutRepeatingCharacters.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NextPermutation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PermutationSequence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreeSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreeSumClosest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LeetCode.rc">

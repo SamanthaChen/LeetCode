@@ -145,6 +145,9 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Base.h" />
+    <ClInclude Include="Derived.h" />
+    <ClInclude Include="DerivedDerived.h" />
     <ClInclude Include="Factory.h" />
     <ClInclude Include="Gift.h" />
     <ClInclude Include="GiftA.h" />
@@ -161,6 +164,9 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Base.cpp" />
+    <ClCompile Include="Derived.cpp" />
+    <ClCompile Include="DerivedDerived.cpp" />
     <ClCompile Include="Dwyer.cpp" />
     <ClCompile Include="Factory.cpp" />
     <ClCompile Include="Gift.cpp" />

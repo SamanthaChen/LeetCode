@@ -2,13 +2,15 @@
 //
 
 #include "stdafx.h"
-#include "PermutationSequence.h"
+#include "ThreeSumClosest.h"
+
+int &fun() {
+	int a = 10;
+	return a;
+}
 int _tmain(int argc, _TCHAR* argv[])
 {
-	int *p;
-	(long long *)p;
-	PermutationSequence PermutationSequence;
-	PermutationSequence.getPermutation(4, 18);
+	ThreeSumClosest ThreeSumClosest;
+	ThreeSumClosest.threeSumClosest(vector<int>{1, 1, 1, 0}, 100);
 	return 0;
 }
-

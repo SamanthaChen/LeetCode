@@ -86,6 +86,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ResourceCompile Include="LeetCode.rc" />
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="AddBinary.h" />
     <ClInclude Include="AddTwoNumbers.h" />
     <ClInclude Include="BalancedBinaryTree.h" />
@@ -115,19 +118,23 @@
     <ClInclude Include="FactorialTrailingZeroes.h" />
     <ClInclude Include="FindMinimuminRotatedSortedArray.h" />
     <ClInclude Include="FindPeakElement.h" />
+    <ClInclude Include="FirstMissingPositive.h" />
     <ClInclude Include="FlattenBinaryTreetoLinkedList.h" />
     <ClInclude Include="FourSum.h" />
+    <ClInclude Include="GenerateParentheses.h" />
     <ClInclude Include="GroupAnagrams.h" />
     <ClInclude Include="HappyNumber.h" />
     <ClInclude Include="HouseRobber.h" />
     <ClInclude Include="ImplementQueueusingStacks.h" />
     <ClInclude Include="ImplementStackusingQueues.h" />
     <ClInclude Include="ImplementstrStr.h" />
+    <ClInclude Include="InsertionSortList.h" />
     <ClInclude Include="Integer2Roman.h" />
     <ClInclude Include="IntersectionofTwoLinkedLists.h" />
     <ClInclude Include="InvertBinaryTree.h" />
     <ClInclude Include="IsomorphicStrings.h" />
     <ClInclude Include="KthSmallestElementinaBST.h" />
+    <ClInclude Include="LargestNumber.h" />
     <ClInclude Include="LeetCode.h" />
     <ClInclude Include="LengthofLastWord.h" />
     <ClInclude Include="LinkedListCycle.h" />
@@ -141,10 +148,12 @@
     <ClInclude Include="MaximalSquare.h" />
     <ClInclude Include="MaximumDepthofBinaryTree.h" />
     <ClInclude Include="MaximumSubarray.h" />
+    <ClInclude Include="MergeIntervals.h" />
     <ClInclude Include="MergekSortedLists.h" />
     <ClInclude Include="MergeSortedArray.h" />
     <ClInclude Include="MergeTwoSortedLists.h" />
     <ClInclude Include="MinimumDepthofBinaryTree.h" />
+    <ClInclude Include="MinimumSizeSubarraySum.h" />
     <ClInclude Include="MinimumWindowSubstring.h" />
     <ClInclude Include="MinStack.h" />
     <ClInclude Include="MissingNumber.h" />
@@ -185,9 +194,12 @@
     <ClInclude Include="SameTree.h" />
     <ClInclude Include="SearchA2DMatrix.h" />
     <ClInclude Include="Searcha2DMatrixII.h" />
+    <ClInclude Include="SearchinRotatedSortedArray.h" />
+    <ClInclude Include="SearchinRotatedSortedArrayII.h" />
     <ClInclude Include="SearchInsertPosition.h" />
     <ClInclude Include="SingleNumber.h" />
     <ClInclude Include="SingleNumberII.h" />
+    <ClInclude Include="SortColors.h" />
     <ClInclude Include="SortList.h" />
     <ClInclude Include="SpiralMatrixII.h" />
     <ClInclude Include="stdafx.h" />
@@ -208,9 +220,6 @@
     <ClInclude Include="ValidSudoku.h" />
     <ClInclude Include="WordBreak.h" />
     <ClInclude Include="ZigZagConversion.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="LeetCode.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -2,15 +2,11 @@
 //
 
 #include "stdafx.h"
-#include "ThreeSumClosest.h"
-
-int &fun() {
-	int a = 10;
-	return a;
-}
+#include "SearchinRotatedSortedArray.h"
 int _tmain(int argc, _TCHAR* argv[])
 {
-	ThreeSumClosest ThreeSumClosest;
-	ThreeSumClosest.threeSumClosest(vector<int>{1, 1, 1, 0}, 100);
+	
+	SearchinRotatedSortedArray SearchinRotatedSortedArray;
+	SearchinRotatedSortedArray.search_two(vector<int>{1,3},0);
 	return 0;
 }

@@ -10,11 +10,8 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="头文件">
-      <UniqueIdentifier>{4979cf6b-e6a1-4e40-923a-2546f455d77a}</UniqueIdentifier>
+      <UniqueIdentifier>{721a80e9-10c0-4138-9dc4-3e9a5335a777}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -25,28 +22,15 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Searcha2DMatrixII.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="LowestCommonAncestorofaBinaryTree.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="LongestPalindromicSubstring.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="KthSmallestElementinaBST.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="FindPeakElement.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="DivideTwoIntegers.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="ContainerWithMostWater.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ResourceCompile Include="LeetCode.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="AddBinary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AddTwoNumbers.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="BalancedBinaryTree.h">
@@ -61,13 +45,22 @@
     <ClInclude Include="BinaryTreeLevelOrderTraversalII.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="BinaryTreePaths.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="BinaryTreePreorderTraversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeRightSideView.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ClimbingStairs.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="CompareVersionNumbers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerWithMostWater.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ContainsDuplicate.h">
@@ -82,13 +75,28 @@
     <ClInclude Include="ConvertSortedListtoBinarySearchTree.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CopyListwithRandomPointer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="CountandSay.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="CountPrimes.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CourseSchedule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseScheduleII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="DeleteNodeinaLinked.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DifferentWaystoAddParentheses.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DivideTwoIntegers.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ExcelSheetColumnNumber.h">
@@ -98,6 +106,24 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="FactorialTrailingZeroes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FindMinimuminRotatedSortedArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FindPeakElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstMissingPositive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlattenBinaryTreetoLinkedList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FourSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupAnagrams.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="HappyNumber.h">
@@ -115,6 +141,9 @@
     <ClInclude Include="ImplementstrStr.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="InsertionSortList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="Integer2Roman.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -127,6 +156,12 @@
     <ClInclude Include="IsomorphicStrings.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="KthSmallestElementinaBST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LargestNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="LeetCode.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -136,10 +171,22 @@
     <ClInclude Include="LinkedListCycle.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LinkedListCycleII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="LongestCommonPrefix.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LongestPalindromicSubstring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LongestSubstringWithoutRepeatingCharacters.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="LowestCommonAncestorofaBinarySearchTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LowestCommonAncestorofaBinaryTree.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="MajorityElement.h">
@@ -154,6 +201,12 @@
     <ClInclude Include="MaximumSubarray.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MergeIntervals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MergekSortedLists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="MergeSortedArray.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -163,10 +216,22 @@
     <ClInclude Include="MinimumDepthofBinaryTree.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MinimumSizeSubarraySum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="MinimumWindowSubstring.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="MinStack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MissingNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplyStrings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NextPermutation.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="NQueens.h">
@@ -184,6 +249,9 @@
     <ClInclude Include="PalindromeNumber.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="PartitionList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="PascalsTriangle.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -194,6 +262,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Permutations.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PermutationSequence.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="PlusOne.h">
@@ -214,6 +285,9 @@
     <ClInclude Include="RemoveDuplicatesfromSortedArray.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="RemoveDuplicatesfromSortedArrayII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="RemoveDuplicatesfromSortedList.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -221,6 +295,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="RemoveNthNodeFromEndofList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReorderList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ReverseBits.h">
@@ -232,16 +312,31 @@
     <ClInclude Include="ReverseLinkedList.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ReverseLinkedListII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseNodesinkGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseWordsinaString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="RomantoInteger.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="RotateArray.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="RotateList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="SameTree.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="SearchA2DMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Searcha2DMatrixII.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="SearchInsertPosition.h">
@@ -251,6 +346,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="SingleNumberII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SortColors.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="SortList.h">
@@ -268,10 +366,28 @@
     <ClInclude Include="SummaryRanges.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="SwapNodesinPairs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="SymmetricTree.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreeSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreeSumClosest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UglyNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UglyNumberII.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="UniqueBinarySearchTrees.h">
@@ -295,106 +411,19 @@
     <ClInclude Include="ZigZagConversion.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="ReverseNodesinkGroup.h">
+    <ClInclude Include="GenerateParentheses.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="PartitionList.h">
+    <ClInclude Include="SearchinRotatedSortedArray.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="ReorderList.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="SwapNodesinPairs.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="MergekSortedLists.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CopyListwithRandomPointer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="LinkedListCycleII.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="RemoveDuplicatesfromSortedArrayII.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="ReverseLinkedListII.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="RotateList.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="AddTwoNumbers.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="BinaryTreeRightSideView.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CourseSchedule.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CourseScheduleII.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="FlattenBinaryTreetoLinkedList.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="GroupAnagrams.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="MultiplyStrings.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="ReverseWordsinaString.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="BinaryTreePaths.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="DifferentWaystoAddParentheses.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="MissingNumber.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="TwoSum.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="UglyNumber.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="UglyNumberII.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="FindMinimuminRotatedSortedArray.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="FourSum.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="LongestSubstringWithoutRepeatingCharacters.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="NextPermutation.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="PermutationSequence.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="ThreeSum.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="ThreeSumClosest.h">
+    <ClInclude Include="SearchinRotatedSortedArrayII.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="LeetCode.rc">
-      <Filter>资源文件</Filter>
-    </ResourceCompile>
+    <Text Include="ReadMe.txt">
+      <Filter>头文件</Filter>
+    </Text>
   </ItemGroup>
 </Project>

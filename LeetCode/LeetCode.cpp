@@ -2,11 +2,12 @@
 //
 
 #include "stdafx.h"
-#include "UniquePaths.h"
+#include "MaximalSquare.h"
 int _tmain(int argc, _TCHAR* argv[])
 {
 	
-	UniquePaths UniquePaths;
-	UniquePaths.uniquePaths_Dwyer(3,3);
+	MaximalSquare MaximalSquare;
+	vector<vector<char>> a = { {'1', '1'}, { '1','1' } };
+	MaximalSquare.maximalSquare(a);
 	return 0;
 }

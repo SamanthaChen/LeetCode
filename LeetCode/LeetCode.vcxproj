@@ -100,6 +100,8 @@
     <ClInclude Include="BinaryTreeRightSideView.h" />
     <ClInclude Include="ClimbingStairs.h" />
     <ClInclude Include="CompareVersionNumbers.h" />
+    <ClInclude Include="ConstructBinaryTreefromInorderandPostorderTraversal.h" />
+    <ClInclude Include="ConstructBinaryTreefromPreorderandInorderTraversal.h" />
     <ClInclude Include="ContainerWithMostWater.h" />
     <ClInclude Include="ContainsDuplicate.h" />
     <ClInclude Include="ContainsDuplicateII.h" />

@@ -429,6 +429,12 @@
     <ClInclude Include="UniquePathsII.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ConstructBinaryTreefromInorderandPostorderTraversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructBinaryTreefromPreorderandInorderTraversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt">

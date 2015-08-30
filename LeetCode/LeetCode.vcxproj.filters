@@ -420,6 +420,15 @@
     <ClInclude Include="SearchinRotatedSortedArrayII.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MinimumPathSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UniquePaths.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UniquePathsII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt">

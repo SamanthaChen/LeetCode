@@ -2,11 +2,11 @@
 //
 
 #include "stdafx.h"
-#include "SearchinRotatedSortedArray.h"
+#include "UniquePaths.h"
 int _tmain(int argc, _TCHAR* argv[])
 {
 	
-	SearchinRotatedSortedArray SearchinRotatedSortedArray;
-	SearchinRotatedSortedArray.search_two(vector<int>{1,3},0);
+	UniquePaths UniquePaths;
+	UniquePaths.uniquePaths_Dwyer(3,3);
 	return 0;
 }

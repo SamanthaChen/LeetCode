@@ -153,6 +153,7 @@
     <ClInclude Include="MergeSortedArray.h" />
     <ClInclude Include="MergeTwoSortedLists.h" />
     <ClInclude Include="MinimumDepthofBinaryTree.h" />
+    <ClInclude Include="MinimumPathSum.h" />
     <ClInclude Include="MinimumSizeSubarraySum.h" />
     <ClInclude Include="MinimumWindowSubstring.h" />
     <ClInclude Include="MinStack.h" />
@@ -214,6 +215,8 @@
     <ClInclude Include="UglyNumber.h" />
     <ClInclude Include="UglyNumberII.h" />
     <ClInclude Include="UniqueBinarySearchTrees.h" />
+    <ClInclude Include="UniquePaths.h" />
+    <ClInclude Include="UniquePathsII.h" />
     <ClInclude Include="ValidAnagram.h" />
     <ClInclude Include="ValidPalindrome.h" />
     <ClInclude Include="ValidParentheses.h" />

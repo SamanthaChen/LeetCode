@@ -435,6 +435,18 @@
     <ClInclude Include="ConstructBinaryTreefromPreorderandInorderTraversal.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="PalindromePartitioning.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PathSumII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SumRoottoLeafNumbers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LetterCombinationsofaPhoneNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt">

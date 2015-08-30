@@ -2,12 +2,11 @@
 //
 
 #include "stdafx.h"
-#include "MaximalSquare.h"
+#include "LetterCombinationsofaPhoneNumber.h"
 int _tmain(int argc, _TCHAR* argv[])
 {
 	
-	MaximalSquare MaximalSquare;
-	vector<vector<char>> a = { {'1', '1'}, { '1','1' } };
-	MaximalSquare.maximalSquare(a);
+	LetterCombinationsofaPhoneNumber LetterCombinationsofaPhoneNumber;
+	LetterCombinationsofaPhoneNumber.letterCombinations("2347897");
 	return 0;
 }

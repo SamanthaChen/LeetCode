@@ -69,6 +69,18 @@
     <ClInclude Include="DerivedDerived.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -114,6 +126,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="DerivedDerived.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyB.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

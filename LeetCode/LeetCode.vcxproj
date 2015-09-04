@@ -98,6 +98,8 @@
     <ClInclude Include="BinaryTreePaths.h" />
     <ClInclude Include="BinaryTreePreorderTraversal.h" />
     <ClInclude Include="BinaryTreeRightSideView.h" />
+    <ClInclude Include="BitwiseANDofNumbersRange.h" />
+    <ClInclude Include="BSTIterator.h" />
     <ClInclude Include="ClimbingStairs.h" />
     <ClInclude Include="CompareVersionNumbers.h" />
     <ClInclude Include="ConstructBinaryTreefromInorderandPostorderTraversal.h" />
@@ -150,6 +152,7 @@
     <ClInclude Include="MajorityElement.h" />
     <ClInclude Include="MaximalSquare.h" />
     <ClInclude Include="MaximumDepthofBinaryTree.h" />
+    <ClInclude Include="MaximumProductSubarray.h" />
     <ClInclude Include="MaximumSubarray.h" />
     <ClInclude Include="MergeIntervals.h" />
     <ClInclude Include="MergekSortedLists.h" />
@@ -166,6 +169,7 @@
     <ClInclude Include="NQueens.h" />
     <ClInclude Include="NQueensII.h" />
     <ClInclude Include="Numberof1Bits.h" />
+    <ClInclude Include="NumberofDigitOne.h" />
     <ClInclude Include="PalindromeLinkedList.h" />
     <ClInclude Include="PalindromeNumber.h" />
     <ClInclude Include="PalindromePartitioning.h" />
@@ -179,6 +183,7 @@
     <ClInclude Include="PlusOne.h" />
     <ClInclude Include="PopulatingNextRightPointersinEachNode.h" />
     <ClInclude Include="PowerofTwo.h" />
+    <ClInclude Include="Powxn.h" />
     <ClInclude Include="ProductofArrayExceptSelf.h" />
     <ClInclude Include="RectangleArea.h" />
     <ClInclude Include="RemoveDuplicatesfromSortedArray.h" />
@@ -208,8 +213,11 @@
     <ClInclude Include="SortColors.h" />
     <ClInclude Include="SortList.h" />
     <ClInclude Include="SpiralMatrixII.h" />
+    <ClInclude Include="Sqrtx.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="StringtoInteger.h" />
+    <ClInclude Include="Subsets.h" />
+    <ClInclude Include="SubsetsII.h" />
     <ClInclude Include="SummaryRanges.h" />
     <ClInclude Include="SumRoottoLeafNumbers.h" />
     <ClInclude Include="SwapNodesinPairs.h" />

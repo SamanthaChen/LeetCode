@@ -7,8 +7,12 @@
 #include "PlateBFactory.h"
 #include "Derived.h"
 #include "DerivedDerived.h"
+#include "Context.h"
+#include "StrategyA.h"
+#include "StrategyB.h"
 int main()
 {
+	/*虚函数
 	Base A;
 	Base B;
 	Derived C;
@@ -20,8 +24,9 @@ int main()
 	g->print();
 	g->show();
 	e.print();
-	f->print();
+	f->print();*/
 
+	//工厂模式
 	/* 
 	Factory* A = new PlateAFactory();
 	Plate *p = A->createPlate();
@@ -35,6 +40,15 @@ int main()
 	q->setPrice();
 	qg->showGift();
     */
+
+	//策略模式
+	Context *c = new Context();
+	Strategy *s = new StrategyA();
+	c->setS(s);
+	c->algorithm();
+	s = new StrategyB();
+	c->setS(s);
+	c->algorithm();
 	return 0;
 }
 

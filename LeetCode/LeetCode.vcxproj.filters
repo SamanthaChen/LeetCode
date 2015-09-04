@@ -447,6 +447,30 @@
     <ClInclude Include="LetterCombinationsofaPhoneNumber.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="BitwiseANDofNumbersRange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BSTIterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberofDigitOne.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Powxn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sqrtx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SubsetsII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MaximumProductSubarray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Subsets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt">

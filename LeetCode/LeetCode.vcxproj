@@ -101,6 +101,10 @@
     <ClInclude Include="BitwiseANDofNumbersRange.h" />
     <ClInclude Include="BSTIterator.h" />
     <ClInclude Include="ClimbingStairs.h" />
+    <ClInclude Include="Combinations.h" />
+    <ClInclude Include="CombinationSum.h" />
+    <ClInclude Include="CombinationSumII.h" />
+    <ClInclude Include="CombinationSumIII.h" />
     <ClInclude Include="CompareVersionNumbers.h" />
     <ClInclude Include="ConstructBinaryTreefromInorderandPostorderTraversal.h" />
     <ClInclude Include="ConstructBinaryTreefromPreorderandInorderTraversal.h" />
@@ -180,6 +184,7 @@
     <ClInclude Include="PathSumII.h" />
     <ClInclude Include="Permutations.h" />
     <ClInclude Include="PermutationSequence.h" />
+    <ClInclude Include="PermutationsII.h" />
     <ClInclude Include="PlusOne.h" />
     <ClInclude Include="PopulatingNextRightPointersinEachNode.h" />
     <ClInclude Include="PowerofTwo.h" />
@@ -205,6 +210,7 @@
     <ClInclude Include="SameTree.h" />
     <ClInclude Include="SearchA2DMatrix.h" />
     <ClInclude Include="Searcha2DMatrixII.h" />
+    <ClInclude Include="SearchforaRange.h" />
     <ClInclude Include="SearchinRotatedSortedArray.h" />
     <ClInclude Include="SearchinRotatedSortedArrayII.h" />
     <ClInclude Include="SearchInsertPosition.h" />
@@ -236,6 +242,7 @@
     <ClInclude Include="ValidParentheses.h" />
     <ClInclude Include="ValidSudoku.h" />
     <ClInclude Include="WordBreak.h" />
+    <ClInclude Include="WordSearch.h" />
     <ClInclude Include="ZigZagConversion.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

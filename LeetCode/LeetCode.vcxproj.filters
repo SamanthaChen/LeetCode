@@ -471,6 +471,13 @@
     <ClInclude Include="Subsets.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="SearchforaRange.h" />
+    <ClInclude Include="CombinationSum.h" />
+    <ClInclude Include="CombinationSumII.h" />
+    <ClInclude Include="CombinationSumIII.h" />
+    <ClInclude Include="Combinations.h" />
+    <ClInclude Include="PermutationsII.h" />
+    <ClInclude Include="WordSearch.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt">

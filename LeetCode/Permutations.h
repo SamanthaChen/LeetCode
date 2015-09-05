@@ -26,8 +26,6 @@ using namespace std;
 class Permutations
 {
 public:
-	Permutations();
-	~Permutations();
 	/********************
 	*描述:这个是我写的方法，采用递归的思路
 	*时间复杂度：O(n的n次方)

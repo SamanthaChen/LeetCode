@@ -92,6 +92,7 @@
     <ClInclude Include="AddBinary.h" />
     <ClInclude Include="AddTwoNumbers.h" />
     <ClInclude Include="BalancedBinaryTree.h" />
+    <ClInclude Include="BestTimetoBuyandSellStock.h" />
     <ClInclude Include="BinaryTreeInorderTraversal.h" />
     <ClInclude Include="BinaryTreeLevelOrderTraversal.h" />
     <ClInclude Include="BinaryTreeLevelOrderTraversalII.h" />
@@ -115,6 +116,7 @@
     <ClInclude Include="ConvertSortedListtoBinarySearchTree.h" />
     <ClInclude Include="CopyListwithRandomPointer.h" />
     <ClInclude Include="CountandSay.h" />
+    <ClInclude Include="CountCompleteTreeNodes.h" />
     <ClInclude Include="CountPrimes.h" />
     <ClInclude Include="CourseSchedule.h" />
     <ClInclude Include="CourseScheduleII.h" />
@@ -125,11 +127,13 @@
     <ClInclude Include="ExcelSheetColumnTitle.h" />
     <ClInclude Include="FactorialTrailingZeroes.h" />
     <ClInclude Include="FindMinimuminRotatedSortedArray.h" />
+    <ClInclude Include="FindMinimuminRotatedSortedArrayII.h" />
     <ClInclude Include="FindPeakElement.h" />
     <ClInclude Include="FirstMissingPositive.h" />
     <ClInclude Include="FlattenBinaryTreetoLinkedList.h" />
     <ClInclude Include="FourSum.h" />
     <ClInclude Include="GenerateParentheses.h" />
+    <ClInclude Include="GrayCode.h" />
     <ClInclude Include="GroupAnagrams.h" />
     <ClInclude Include="HappyNumber.h" />
     <ClInclude Include="HouseRobber.h" />
@@ -141,6 +145,7 @@
     <ClInclude Include="IntersectionofTwoLinkedLists.h" />
     <ClInclude Include="InvertBinaryTree.h" />
     <ClInclude Include="IsomorphicStrings.h" />
+    <ClInclude Include="JumpGame.h" />
     <ClInclude Include="KthSmallestElementinaBST.h" />
     <ClInclude Include="LargestNumber.h" />
     <ClInclude Include="LeetCode.h" />
@@ -149,6 +154,7 @@
     <ClInclude Include="LinkedListCycle.h" />
     <ClInclude Include="LinkedListCycleII.h" />
     <ClInclude Include="LongestCommonPrefix.h" />
+    <ClInclude Include="LongestConsecutiveSequence.h" />
     <ClInclude Include="LongestPalindromicSubstring.h" />
     <ClInclude Include="LongestSubstringWithoutRepeatingCharacters.h" />
     <ClInclude Include="LowestCommonAncestorofaBinarySearchTree.h" />
@@ -206,6 +212,7 @@
     <ClInclude Include="ReverseWordsinaString.h" />
     <ClInclude Include="RomantoInteger.h" />
     <ClInclude Include="RotateArray.h" />
+    <ClInclude Include="RotateImage.h" />
     <ClInclude Include="RotateList.h" />
     <ClInclude Include="SameTree.h" />
     <ClInclude Include="SearchA2DMatrix.h" />
@@ -218,6 +225,7 @@
     <ClInclude Include="SingleNumberII.h" />
     <ClInclude Include="SortColors.h" />
     <ClInclude Include="SortList.h" />
+    <ClInclude Include="SpiralMatrix.h" />
     <ClInclude Include="SpiralMatrixII.h" />
     <ClInclude Include="Sqrtx.h" />
     <ClInclude Include="stdafx.h" />
@@ -231,6 +239,9 @@
     <ClInclude Include="targetver.h" />
     <ClInclude Include="ThreeSum.h" />
     <ClInclude Include="ThreeSumClosest.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="Trie.h" />
+    <ClInclude Include="TrieNode.h" />
     <ClInclude Include="TwoSum.h" />
     <ClInclude Include="UglyNumber.h" />
     <ClInclude Include="UglyNumberII.h" />

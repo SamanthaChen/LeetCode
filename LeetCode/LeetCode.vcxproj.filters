@@ -162,9 +162,6 @@
     <ClInclude Include="LargestNumber.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="LeetCode.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="LengthofLastWord.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -471,13 +468,41 @@
     <ClInclude Include="Subsets.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="SearchforaRange.h" />
-    <ClInclude Include="CombinationSum.h" />
-    <ClInclude Include="CombinationSumII.h" />
-    <ClInclude Include="CombinationSumIII.h" />
-    <ClInclude Include="Combinations.h" />
-    <ClInclude Include="PermutationsII.h" />
-    <ClInclude Include="WordSearch.h" />
+    <ClInclude Include="Combinations.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CombinationSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CombinationSumII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CombinationSumIII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PermutationsII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchforaRange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WordSearch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GrayCode.h" />
+    <ClInclude Include="CountCompleteTreeNodes.h" />
+    <ClInclude Include="JumpGame.h" />
+    <ClInclude Include="SpiralMatrix.h" />
+    <ClInclude Include="TrieNode.h" />
+    <ClInclude Include="Trie.h" />
+    <ClInclude Include="LeetCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateImage.h" />
+    <ClInclude Include="LongestConsecutiveSequence.h" />
+    <ClInclude Include="FindMinimuminRotatedSortedArrayII.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="BestTimetoBuyandSellStock.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt">

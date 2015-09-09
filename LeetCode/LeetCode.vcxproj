@@ -79,7 +79,11 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="HIndex.cpp" />
+    <ClCompile Include="HIndexII.cpp" />
     <ClCompile Include="LeetCode.cpp" />
+    <ClCompile Include="MajorityElementII.cpp" />
+    <ClCompile Include="SetMatrixZeroes.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -93,6 +97,7 @@
     <ClInclude Include="AddTwoNumbers.h" />
     <ClInclude Include="BalancedBinaryTree.h" />
     <ClInclude Include="BestTimetoBuyandSellStock.h" />
+    <ClInclude Include="BestTimetoBuyandSellStockII.h" />
     <ClInclude Include="BinaryTreeInorderTraversal.h" />
     <ClInclude Include="BinaryTreeLevelOrderTraversal.h" />
     <ClInclude Include="BinaryTreeLevelOrderTraversalII.h" />
@@ -136,6 +141,8 @@
     <ClInclude Include="GrayCode.h" />
     <ClInclude Include="GroupAnagrams.h" />
     <ClInclude Include="HappyNumber.h" />
+    <ClInclude Include="HIndex.h" />
+    <ClInclude Include="HIndexII.h" />
     <ClInclude Include="HouseRobber.h" />
     <ClInclude Include="ImplementQueueusingStacks.h" />
     <ClInclude Include="ImplementStackusingQueues.h" />
@@ -160,6 +167,7 @@
     <ClInclude Include="LowestCommonAncestorofaBinarySearchTree.h" />
     <ClInclude Include="LowestCommonAncestorofaBinaryTree.h" />
     <ClInclude Include="MajorityElement.h" />
+    <ClInclude Include="MajorityElementII.h" />
     <ClInclude Include="MaximalSquare.h" />
     <ClInclude Include="MaximumDepthofBinaryTree.h" />
     <ClInclude Include="MaximumProductSubarray.h" />
@@ -221,6 +229,7 @@
     <ClInclude Include="SearchinRotatedSortedArray.h" />
     <ClInclude Include="SearchinRotatedSortedArrayII.h" />
     <ClInclude Include="SearchInsertPosition.h" />
+    <ClInclude Include="SetMatrixZeroes.h" />
     <ClInclude Include="SingleNumber.h" />
     <ClInclude Include="SingleNumberII.h" />
     <ClInclude Include="SortColors.h" />

@@ -20,6 +20,18 @@
     <ClCompile Include="LeetCode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MajorityElementII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetMatrixZeroes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HIndex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HIndexII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LeetCode.rc">
@@ -489,20 +501,53 @@
     <ClInclude Include="WordSearch.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="GrayCode.h" />
-    <ClInclude Include="CountCompleteTreeNodes.h" />
-    <ClInclude Include="JumpGame.h" />
-    <ClInclude Include="SpiralMatrix.h" />
-    <ClInclude Include="TrieNode.h" />
-    <ClInclude Include="Trie.h" />
     <ClInclude Include="LeetCode.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="RotateImage.h" />
-    <ClInclude Include="LongestConsecutiveSequence.h" />
-    <ClInclude Include="FindMinimuminRotatedSortedArrayII.h" />
-    <ClInclude Include="Triangle.h" />
-    <ClInclude Include="BestTimetoBuyandSellStock.h" />
+    <ClInclude Include="BestTimetoBuyandSellStock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CountCompleteTreeNodes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FindMinimuminRotatedSortedArrayII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GrayCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LongestConsecutiveSequence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateImage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiralMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Trie.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TrieNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BestTimetoBuyandSellStockII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MajorityElementII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetMatrixZeroes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HIndex.h" />
+    <ClInclude Include="HIndexII.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt">

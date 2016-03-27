@@ -21,7 +21,7 @@ public class S92ReverseLinkedList {
 	        oldPre.next = pre;
 	        
 //	        if(m == 1) return pre;
-	        return oldPre.next;
+	        return head;
 	 
 	    }
 	  public static void main(String[] args) {

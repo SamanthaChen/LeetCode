@@ -4,6 +4,7 @@ import DataStructual.ListNode;
 
 public class S206ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
+    	//迭代版本(从第二个指针开始考虑的，代码不够简洁)
         if(head == null) return head;
         ListNode cur = head.next;//保存head的后面一个数
         if(cur == null) return head;
@@ -21,4 +22,28 @@ public class S206ReverseLinkedList {
         head = cur;
         return head;
     }
-}
+    public ListNode reverseList2(ListNode head){
+    	//递归版本,递归的将指针转向再后移
+        return reverse(head,null);
+
+    }
+    public ListNode reverse(ListNode head,ListNode newhead){
+        //这个方法返回转置后的链表的最后一个数
+        if(head == null) return newhead;
+        ListNode next = head.next; 
+        head.next = newhead;//指针转向
+        return reverse(next,head);//向后移动
+    }
+    public ListNode reverseList3(ListNode head){
+         //迭代版本(从第1个指针开始考虑的！)
+         if(head == null || head.next == null) return head;
+         ListNode newhead = null;
+         while(head!=null){
+             ListNode next = head.next;
+             head.next = newhead;//改变指针方向
+             newhead = head;//指针后移
+             head = next;
+         }
+         return newhead;
+    }
+   }

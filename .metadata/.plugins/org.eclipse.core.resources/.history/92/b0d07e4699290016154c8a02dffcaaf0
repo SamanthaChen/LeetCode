@@ -1,0 +1,39 @@
+package Solutions;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.ArrayList;
+
+public class S350 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] nums1 = {1,2,2,1};
+		int[] nums2 = {2,2};
+		int[] res = intersect(nums1,nums2);
+		for(int r : res){
+			System.out.print("r"+"\t");
+		}
+	}
+    public static int[] intersect(int[] nums1, int[] nums2) {
+        HashSet<Integer> set =  new HashSet<Integer> ();
+        List<Integer> list = new ArrayList<Integer>();
+        
+        for(int  i = 0; i < nums1.length; i++){
+            set.add(nums1[i]);
+        }
+        
+        for(int j = 0; j <nums2.length; j++){
+            if(set.contains(nums2[j])){
+                list.add(nums2[j]);
+            }
+            
+        }
+        int[] res = new int[list.size()];
+        for(int k = 0 ; k < list.size(); k++){
+            res[k] = list.get(k);
+        }
+        return res;
+        
+    }
+}

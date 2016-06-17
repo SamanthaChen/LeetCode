@@ -1,3 +1,4 @@
+
 import DataStructual.*;
 import Solutions.*;
 /**
@@ -7,12 +8,9 @@ import Solutions.*;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		ListNode node0 = new ListNode(0);
-		ListNode node1 = new ListNode(1);
-		node0.next = node1;
-		Solution237DeleteNode solution = new Solution237DeleteNode();
-		solution.deleteNode(node0);
+		char a = 2+'A';
+		String s = ""+a;
+	System.out.println(s);
 	}
 
 }

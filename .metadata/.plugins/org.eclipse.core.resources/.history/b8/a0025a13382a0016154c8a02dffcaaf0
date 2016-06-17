@@ -1,0 +1,44 @@
+package Solutions;
+
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class S219ContainsNearDuplicate {
+    public static boolean containsNearbyDuplicate(int[] nums, int k) {
+        
+        //检查k*N遍 超时
+      
+//        if(nums.length < k ||nums.length == 1) return false;
+//        for(int i = 0; i < nums.length; i++ ){
+//            for(int j = i+1; j < k; j++){
+//                if(nums[i]==nums[j]) return true;
+//            }
+//        }
+//        return false;
+        
+        //利用set维持一个大小为k+1的滑动窗口(10ms 80.81%)
+      
+//        HashSet<Integer> set = new HashSet<Integer>();
+//        for(int i = 0 ; i < nums.length; i++){
+//            if(i>k) set.remove(nums[i-k-1]) ;//为了维持滑动窗口，每次将第一个添加的删除
+//            if(!set.add(nums[i])) return true;
+//        }
+//        return false;
+        
+        //用一个map 超时
+        HashMap<Integer,Integer> map = new HashMap<Integer,Integer>();
+        for(int i = 0 ; i < nums.length; i++){
+            if(map.containsKey(nums[i])) {
+                if(i-map.get(nums[i]) <= k) return true;
+            }
+            map.put(nums[i],i);
+            
+        }
+        return false;
+    }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] nums = {3,4,1,2,1};
+		System.out.print(containsNearbyDuplicate(nums,1) ? "T" :"F");
+	}
+}

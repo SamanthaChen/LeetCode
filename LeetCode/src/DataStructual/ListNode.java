@@ -8,4 +8,12 @@ public class ListNode {
 	public int val;
 	public ListNode next;
 	public ListNode(int x){ val = x;}
+	//打印单链表的方法
+	public void print(){
+		ListNode n =this;
+		  while(n!=null){
+			  System.out.println(n.val);
+			  n=n.next;
+		  }
+	}
 }

@@ -9,18 +9,29 @@ public class S205IsomorphicStrings {
 		System.out.println(isIsomorphic("paper","title") ? "T" : "F" );
 	}
     public static boolean isIsomorphic(String s, String t) {
-        //用string的replace功能，算作弊吗？
-        HashMap<Character,Character> map = new HashMap<Character,Character>();
-        int[] visited = new int[26];//储存是否访问过
-        for(int i = 0; i < s.length(); i++){
-            char tt = t.charAt(i);
-            char ss = s.charAt(i);
-            if(!map.containsKey(tt) && visited[tt -'a'] == 0){
-                map.put(tt,ss);
-                t=t.replace(tt,ss);
-                visited[ss-'a'] = 1;//访问过了
-            }
+        if(s.length()!=t.length()) return false;
+        //采用hashMap
+        HashMap<Character, Character> map = new HashMap<Character, Character>();
+        for(int i = 0; i<s.length(); i++){
+                char a = s.charAt(i);
+                char b = t.charAt(i);
+                if(map.containsKey(a)){//
+                    if (map.get(a)!=b) return false;
+                    else continue;
+                }else{
+                    if(map.containsValue(b)) return false;
+                    else map.put(a,b);
+                }
         }
-        return (t.equals(s));
+        
+        //采用一个数组充当Map的功能，考虑256位的ASCII
+//        int[] m = new int[512];//前256是s的，后256是t的
+////        for(int i = 0; i<s.length(); i++){
+////            if(m[s.charAt(i)]!=m[t.charAt(i)+256]) return false;
+////            m[s.charAt(i)] = m[t.charAt(i)+256] = i+1;
+////        }
+        
+        
+        return true;
     }
 }

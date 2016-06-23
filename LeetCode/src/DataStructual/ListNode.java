@@ -12,8 +12,9 @@ public class ListNode {
 	public void print(){
 		ListNode n =this;
 		  while(n!=null){
-			  System.out.println(n.val);
+			  System.out.print(n.val+"->");
 			  n=n.next;
 		  }
+		  System.out.println();
 	}
 }

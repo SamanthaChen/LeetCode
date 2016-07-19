@@ -4,7 +4,7 @@ public class S8StringtoInteger {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(myAtoi("123456"));
+		System.out.println(myAtoi("1"));
 	}
     public static int myAtoi(String str) {
         
@@ -37,6 +37,33 @@ public class S8StringtoInteger {
         res = res*sign;
 
         return res;
+    	
+//        //空字符串
+//        if(s==null || s.length()<=0) return 0;
+//        //处理字符串前面的空格
+//        int i=0;
+//        while(s.charAt(i)==' ' && i<s.length()) i++;
+//        //处理符号
+//        int sign=1;
+//        if(s.charAt(i)=='-' || s.charAt(i)=='+'){
+//            if(s.charAt(i)=='-' )  sign = -1;
+//            else sign = 1;
+//            i++;
+//        }
+//        //处理剩下的字符
+//        int res = 0;
+//        while(i<s.length()){
+//            int d = s.charAt(i)-'0';
+//            if(d <0 || d>9) break;//遇到非法字符就跳出
+//            //考虑溢出
+//            if(res*10>=Integer.MAX_VALUE || d>=Integer.MAX_VALUE%10)
+//                return sign==1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+//            res = res*10 + d;
+//        		i++;
+//        }
+//        res = res*sign;
+//        return res;
+        
     }
 
 }

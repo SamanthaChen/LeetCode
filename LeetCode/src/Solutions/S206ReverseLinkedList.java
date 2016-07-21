@@ -46,4 +46,18 @@ public class S206ReverseLinkedList {
          }
          return newhead;
     }
+    
+    ///2016.7.21新增一个我可以理解的递归的方法
+	//递归转置链表
+	//递归的方法
+	public static ListNode reverseListNew(ListNode head){
+		if(head==null || head.next == null) return head;
+		ListNode newtail = head.next;
+		ListNode newhead = reverseListNew(head.next);
+		
+		head.next =null;
+		newtail.next = head;
+		return newhead;
+		
+	}
    }

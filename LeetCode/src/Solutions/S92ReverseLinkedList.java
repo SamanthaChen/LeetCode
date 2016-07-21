@@ -24,6 +24,36 @@ public class S92ReverseLinkedList {
 	        return head;
 	 
 	    }
+	  //2016.7.21 新写的
+	    public static ListNode reverseBetweenNew(ListNode head, int m, int n) {
+	        if(head==null || head.next==null || m==n) return head;
+	        int count = n-m+1;
+	        ListNode oldhead = new ListNode(0);
+	        oldhead.next = head;
+	        //先将指针移动到给定位置
+	        ListNode pre = oldhead;
+	        while(m>1){
+	            pre = head;
+	            head = head.next;
+	            --m;
+	        }
+	        //再翻转一下中间的
+	        ListNode oldpre = pre;
+	        ListNode nxt;
+	        while(count>=1){
+	            nxt = head.next;
+	            head.next = pre;
+	            pre = head;
+	            head = nxt;
+	            --count;
+	        }
+	        //再处理一下连接部分
+	        oldpre.next.next = head;
+	        oldpre.next = pre;
+	        return oldhead.next;
+	        
+	        
+	    }
 	  public static void main(String[] args) {
 //		  ListNode node1 = new ListNode(1);
 //		  ListNode node2 = new ListNode(2);

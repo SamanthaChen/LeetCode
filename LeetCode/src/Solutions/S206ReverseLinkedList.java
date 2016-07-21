@@ -53,7 +53,7 @@ public class S206ReverseLinkedList {
 	public static ListNode reverseListNew(ListNode head){
 		if(head==null || head.next == null) return head;
 		ListNode newtail = head.next;
-		ListNode newhead = reverseListNew(head.next);
+		ListNode newhead = reverseList (head.next);
 		
 		head.next =null;
 		newtail.next = head;

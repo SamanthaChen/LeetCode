@@ -304,6 +304,23 @@ public class SortArrays {
 			t++;
 		}
 	}
+	//写一个非递归的归并排序算法
+	//思路:归并长度从1开始，每次归并长度变为原来的2倍
+	//需要注意处理归并段长度为奇数   以及  最后一个归并段长度和前面不相等的情况 
+	public static void mergeSortNonRer(int[] a, int left, int right){
+		int len = 1;//每次的归并长度
+		while(len<a.length){
+			//里面for是一趟归并
+			for(int i=0; i+len <a.length; i = i+len*2){
+				int low = i;
+				int mid = i+len-1;
+				int high = i+2*len-1;
+				if(high>a.length-1) high = a.length-1;//处理一下边界情况
+				merge(a,low,mid,high);
+			}
+			len = len*2;
+		}
+	}
 	/*
 	 * 基数排序
 	 * **/

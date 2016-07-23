@@ -18,7 +18,9 @@ public class Test {
 //		shellSort(nums);
 //		simpleSelect(nums);
 //		heapSort(nums);
-		QuickSort(nums);
+//		QuickSort(nums);
+//		mergesort(nums,0,nums.length-1);
+		mergeSortNonRer(nums,0,nums.length-1);
 		
 		long endTime=System.currentTimeMillis();
 		long Time = endTime-starTime;
@@ -86,6 +88,52 @@ public class Test {
 		}
 		a[low]=pivot;
 		return low;
+	}
+	
+	//自己重新写一个归并的递归算法
+	public static void mergesort(int[] nums,int left, int right){
+		if(left<right){
+			int middle = (left+right)/2;
+			mergesort(nums,left,middle);
+			mergesort(nums,middle+1,right);
+			merge(nums,left,middle,right);
+		}
+
+	}
+	public static void merge(int[] nums, int left, int middle, int right){
+		int[] tmp = new int[nums.length];
+		int l = left;
+		int r = middle+1;
+		int k=left;
+		while(l<=middle && r<=right && k<nums.length){
+			if(nums[l]<=nums[r]) tmp[k++] =nums[l++];
+			else tmp[k++] = nums[r++];
+		}
+		while(l<=middle && k<nums.length) tmp[k++] =nums[l++];
+		while(r<=right && k<nums.length) tmp[k++] =nums[r++];
+		
+		k=left;
+		while(k<=right){
+			nums[k]= tmp[k];
+			k++;
+		}
+	}
+	//写一个非递归的归并排序算法
+	//思路:归并长度从1开始，每次归并长度变为原来的2倍
+	//需要注意处理归并段长度为奇数   以及  最后一个归并段长度和前面不相等的情况 
+	public static void mergeSortNonRer(int[] a, int left, int right){
+		int len = 1;//每次的归并长度
+		while(len<a.length){
+			//里面for是一趟归并
+			for(int i=0; i+len <a.length; i = i+len*2){
+				int low = i;
+				int mid = i+len-1;
+				int high = i+2*len-1;
+				if(high>a.length-1) high = a.length-1;//处理一下边界情况
+				merge(a,low,mid,high);
+			}
+			len = len*2;
+		}
 	}
 	
 

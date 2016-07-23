@@ -47,12 +47,13 @@ public class ListNode {
 
 	//打印单链表的方法
 	public void print(){
-//		ListNode n =this;
-//		  while(n!=null){
-//			  System.out.print(n.val+"->");
-//			  n=n.next;
-//		  }
-		  System.out.println(this.toString());
+		ListNode n =this;
+		  while(n!=null){
+			  System.out.print(n.val+"->");
+			  n=n.next;
+		  }
+		  System.out.println("");
+//		  System.out.println(this.toString());
 	}
 
 }

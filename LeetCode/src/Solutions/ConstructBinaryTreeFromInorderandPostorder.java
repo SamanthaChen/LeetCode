@@ -18,12 +18,12 @@ public class ConstructBinaryTreeFromInorderandPostorder {
 		
 		TreeNode root = buildTree(in,post);//根据中序和后序建树
 		
-		List<Integer> inlist = S144BinaryTreePreorderTravelsal.preorderTraversal(root);
+		List<Integer> inlist = BinaryTreePreorderTravelsal.preorderTraversal(root);
 		System.out.println("中序遍历：");
 		inlist.forEach(e->{System.out.print(e+" " );});
 		System.out.println("");
 		
-		List<Integer> postlist = S145BinaryTreePostorderTraversal.postorderTraversal(root);
+		List<Integer> postlist = BinaryTreePostorderTraversal.postorderTraversal(root);
 		System.out.println("后序遍历：");
 		postlist.forEach(e->{System.out.print(e+" " );});
 		System.out.println("");

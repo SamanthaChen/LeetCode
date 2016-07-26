@@ -3,6 +3,10 @@ package Solutions;
 import DataStructual.TreeNode;
 
 public class S110BalancedBinaryTree {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
     public boolean isBalanced(TreeNode root) {
         // //递归求左右子树深度的方法 原来超时，改进后1ms，87.6%（【关键地方：每次递归检查左右子树高度差，防止无用的搜索】）
         if(root == null) return true;
@@ -28,9 +32,22 @@ public class S110BalancedBinaryTree {
         //否则深度按照左右子树最大的+1算
         return ld>rd? ld+1:rd+1;
     }
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    
+    //根据定义写的，左右子树高度差不超过1且左右子树都是平衡的
+    public static boolean isBalanced1(TreeNode root) {
+    	if(root==null)
+    		return true;
+    	int left = getHeight(root.left);
+    	int right = getHeight(root.right);
+     
+    	return Math.abs(left-right)<=1 && isBalanced1(root.left) && isBalanced1(root.right);
+        
+    }
+    public static int getHeight(TreeNode root){
+    	if(root==null) return 0;
+    	return(Math.max(getHeight(root.left), getHeight(root.right))+1);
+    	
+    }
 
-	}
 
 }

@@ -1,0 +1,10 @@
+package Solutions;
+
+public class S101SymmetricTree {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

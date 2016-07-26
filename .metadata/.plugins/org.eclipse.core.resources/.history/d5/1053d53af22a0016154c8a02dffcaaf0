@@ -1,0 +1,10 @@
+package Solutions;
+
+public class S19RemoveNthNode {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

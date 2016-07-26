@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Solutions.RemoveNthNode&apos; to &apos;S19RemoveNthNode&apos;&#x0D;&#x0A;- Original project: &apos;LeetCode&apos;&#x0D;&#x0A;- Original element: &apos;Solutions.RemoveNthNode&apos;&#x0D;&#x0A;- Renamed element: &apos;Solutions.S19RemoveNthNode&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;RemoveNthNode&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Solutions{RemoveNthNode.java[RemoveNthNode" matchStrategy="1" name="S19RemoveNthNode" qualified="false" references="true" similarDeclarations="false" stamp="1465113046334" textual="false" version="1.0"/>
+</session>

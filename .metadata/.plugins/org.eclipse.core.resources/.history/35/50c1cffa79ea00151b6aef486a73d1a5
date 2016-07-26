@@ -1,0 +1,71 @@
+package Solutions;
+
+import java.util.HashMap;
+
+public class S13RomanToInteger {
+    public int romanToInt(String s) {
+        
+        //我的第一种解法，设置两个指针循环比较大小相加，慢
+        // HashMap<Character,Integer> map =  new HashMap<Character,Integer>();
+        // map.put('M',1000);
+        // map.put('D',500);
+        // map.put('C',100);
+        // map.put('L',50);
+        // map.put('X',10);
+        // map.put('V',5);
+        // map.put('I',1);
+        // if(s == null) return 0;
+        // if(s.length() == 1) return map.get(s.charAt(0));
+        // //当字符长度大于1
+        // int res = 0;
+        // for(int i = 0; i<s.length();i++ ){//减2是为了保证j能往后走
+        //     int j = i + 1;
+        //     char left = s.charAt(i);
+        //     //当i已经走到最后一个数的时候，j走到了空
+        //     if(j == s.length()){
+        //       res += map.get(left); 
+        //       break;
+        //     } 
+        //     //当j还没走到空的时候
+        //     char right = s.charAt(j);
+        //     if(map.get(left) < map.get(right)) //左边数比右边小是减法
+        //         res = res - map.get(left);
+        //     else //否则是加法
+        //         res += map.get(left);
+        // }
+        // return res;
+        
+        //第二种解法，利用字母跟数字的互相转换，减少从map取值比较的时间
+        int[] a = new int[26];
+        a['I'-'A'] = 1;
+        a['V'-'A'] = 5;
+        a['X'-'A'] = 10;
+        a['L'-'A'] = 50;
+        a['C'-'A'] = 100;
+        a['D'-'A'] = 500;
+        a['M'-'A'] = 1000;
+        int len = s.length();//字符串长度
+        if(s == null || len == 0) return 0;
+        int res = a[s.charAt(len-1)-'A'];//记录最后一个数
+        if(len == 1) return res;
+        int pivot = res;//比较大小的轴
+        //从后面开始比较，因为最后一个数肯定是加的
+        for(int i = len-2; i >= 0; i-- ){
+            int left = a[s.charAt(i)-'A'];
+            
+            if(left < pivot) 
+                res  -= left;
+            else //即使是相等，那也是加
+                res += left; 
+            
+            pivot = left;
+        }
+        return res;
+        
+    }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

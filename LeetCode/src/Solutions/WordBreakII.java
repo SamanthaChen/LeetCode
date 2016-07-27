@@ -22,6 +22,7 @@ public class WordBreakII {
 	}
     public List wordBreak(String s, Set<String> wordDict) {
     	ArrayList<String> res = new ArrayList<String>();
+		return null;
   
     }
 

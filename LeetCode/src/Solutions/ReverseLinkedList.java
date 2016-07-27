@@ -3,7 +3,7 @@ package Solutions;
 import DataStructual.ListNode;
 
 public class ReverseLinkedList {
-    public ListNode reverseList(ListNode head) {
+    public static ListNode reverseList(ListNode head) {
     	//迭代版本(从第二个指针开始考虑的，代码不够简洁)
         if(head == null) return head;
         ListNode cur = head.next;//保存head的后面一个数

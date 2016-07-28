@@ -1,13 +1,15 @@
 package Solutions;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class Permutations {
 
 	public static void main(String[] args) {
-		int[] nums = {1,2,3,4,5};
-		List<List<Integer>> res = permute(nums);
+		int[] nums = {1,2,3};
+		List<List<Integer>> res = permute2(nums);
 		//lambda表达式打印列表
 		res.forEach((list)->{
 			System.out.print("[");
@@ -20,7 +22,7 @@ public class Permutations {
 
 	}
 	/*
-	 * 思路：假设数字是{1,2,3}。首先是{{1}}，2有两个插入位置，复制一个{1}把2插入
+	 * 思路1：假设数字是{1,2,3}。首先是{{1}}，2有两个插入位置，复制一个{1}把2插入
 	 * {{1,2}，{2,1}}。接着是3，有三个插入位置，原来的成员每个复制两个，插入3
 	 * 
 	 * **/
@@ -47,6 +49,51 @@ public class Permutations {
     	
 		return res;
         
+    }
+    /*
+     * 思路2:递归对两个元素进行交换
+     * **/
+    public static List<List<Integer>> permute2(int[] nums){
+    	List<List<Integer>> res = new ArrayList<List<Integer>>();
+    	helper(nums,0,res);
+    	return res;
+
+    }
+    /*递归
+     * **/
+    public static void helper(int nums[],int start,List<List<Integer>> res ){
+    	//递归结束条件
+    	if(start>= nums.length){
+    		System.out.println("递归结束：");
+    		res.add(array2List(nums));
+    	}
+    	for(int i=start;i<nums.length;i++){
+    		swap(start,i,nums);
+//    		String s1 = array2List(nums).toString();
+//    		System.out.println("前：");
+//    		System.out.println("S:" +start+" i:"+ i+" nums:"+ s1);
+    		helper(nums,start+1,res);
+//    		String s2 = array2List(nums).toString();
+//    		System.out.println("后：");
+//    		System.out.println("S:" +start+" i:"+ i+" nums:"+ s2);
+    		swap(start,i,nums);
+    	}
+    }
+    /*
+     * 交换
+     * **/
+    public static void swap(int i, int j, int[] a){
+    	int temp = a[i];
+    	a[i] = a[j];
+    	a[j] = temp;
+    }
+    /*
+     * 数组变成list（基本类型的数组不能用Arrays.toList）
+     * **/
+    public static List<Integer> array2List(int[] nums){
+    	List<Integer> list = new ArrayList<Integer>();
+    	for(int i:nums)list.add(i);//这里是自动装箱了，int自动变成Integer
+    	return list;
     }
 
 }

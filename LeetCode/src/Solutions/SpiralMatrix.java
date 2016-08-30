@@ -8,7 +8,7 @@ public class SpiralMatrix {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int m=3;
-		int n=2;
+		int n=3;
 		int[][] matrix = new int[m][n];
 		int k=1;
 		for(int i = 0; i<m;i++){

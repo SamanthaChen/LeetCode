@@ -2,7 +2,7 @@ package Solutions;
 
 import DataStructual.TreeNode;
 
-public class LowestCommonAncester {
+public class LowestCommonAncesterofBST {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         //我的方法，采用递归
         // if(root == null || p == null || q == null) return null;

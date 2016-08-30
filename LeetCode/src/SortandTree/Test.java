@@ -1,4 +1,4 @@
-package SortAlgorithm;
+package SortandTree;
 
 public class Test {
 

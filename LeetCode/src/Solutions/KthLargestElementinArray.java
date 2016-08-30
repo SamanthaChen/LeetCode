@@ -3,8 +3,8 @@ package Solutions;
 public class KthLargestElementinArray {
 
 	public static void main(String[] args) {
-		int[] nums = {6,5,4,3,2,1};
-		System.out.println(findKthLargest(nums,6));
+		int[] nums = {1,2};
+		System.out.println(findKthLargest(nums,1));
 	}
 	/*
 	 * 思路1：用快排
@@ -54,6 +54,6 @@ public class KthLargestElementinArray {
         		low = pivotloc+1;
         	}
     	}
-    	return nums[low];
+    	return nums[k];//注意这里当然不能nums[low]
     }
 }

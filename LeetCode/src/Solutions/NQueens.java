@@ -67,7 +67,7 @@ public class NQueens {
 	// 将a[end]与每一个前面比较就行，不用两两
 	private boolean isValid(int[] queen, int end) {
 		for (int i = 0; i < end; i++) {
-			if (queen[i] == queen[end] || Math.abs(i - end) == Math.abs(queen[i] - queen[end]))
+			if (queen[i] == queen[end] || Math.abs(i - end) == Math.abs(queen[i] - queen[end])) // 分别是主对角线和副对角线冲突的情况
 				return false;
 		}
 		return true;

@@ -1,6 +1,7 @@
 package SortandTree;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /*
@@ -11,8 +12,9 @@ public class SortArrays {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] nums = { 49, 38, 65, 97, 76, 13, 27, 49 };
+		// int[] nums = { 49, 38, 65, 97, 76, 13, 27, 49 };
 		// int[] nums = {9,8,7,6,5,4,3,2,1};
+		int[] nums = { 4, 5, 3, 0, 1, 7, 2, 6 };
 
 		System.out.println("排序之前：");
 		for (int i : nums)
@@ -26,12 +28,12 @@ public class SortArrays {
 		// binaryInsertion(nums);
 		// shellSort(nums);
 		// simpleSelect(nums);
-		// heapSort(nums);
+		heapSort(nums);
 		// bubbleSort(nums);
 		// bubbleSort2(nums);
 		// quickSort(nums);
 		// mergeSort(nums,0,nums.length-1);
-		radixSort(nums);
+		// radixSort(nums);
 
 		long endTime = System.currentTimeMillis();
 		long Time = endTime - starTime;
@@ -142,13 +144,18 @@ public class SortArrays {
 	 **/
 	public static void heapSort(int[] h) {
 		// 先建立一下初始堆
-		for (int i = (h.length - 1) / 2; i >= 0; i--)// 根只在前半部分
+		for (int i = (h.length - 1) / 2; i >= 0; i--) {
+			// 根只在前半部分
+			System.out.println("初始堆");
 			heapAdjust(h, i, h.length - 1);
+		}
+
 		// 依次将当前堆顶输出到后面，然后调整堆
 		for (int i = h.length - 1; i > 0; i--) {
 			int tmp = h[i];
 			h[i] = h[0];
 			h[0] = tmp;
+			System.out.println("调整堆");
 			heapAdjust(h, 0, i - 1);
 		}
 
@@ -169,6 +176,7 @@ public class SortArrays {
 				child = 2 * s + 1;// 孩子节点后移
 			} else
 				break;// 不需要进行调整
+			System.out.println(Arrays.toString(h));
 		}
 	}
 

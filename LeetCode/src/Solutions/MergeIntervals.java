@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class MergeIntervals {
-	public class Interval {
+	public static class Interval {
 		int start;
 		int end;
 		Interval() { start = 0; end = 0; }
@@ -16,11 +16,10 @@ public class MergeIntervals {
 	  
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		MergeIntervals solution = new MergeIntervals();
-		MergeIntervals.Interval i1 = solution.new Interval(1,3);
-		MergeIntervals.Interval i2 = solution.new Interval(2,6);
-		MergeIntervals.Interval i3 = solution.new Interval(8,10);
-		MergeIntervals.Interval i4 = solution.new Interval(15,18);
+		Interval i1 = new Interval(1,3);
+		Interval i2 = new Interval(2,6);
+		Interval i3 = new Interval(8,10);
+		Interval i4 = new Interval(15,18);
 //		S26MergeIntervals.Interval i5 = solution.new Interval(1,3);
 		List<Interval> list = new ArrayList<Interval>();
 		list.add(i1);list.add(i2);list.add(i3);list.add(i4);

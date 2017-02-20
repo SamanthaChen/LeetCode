@@ -52,7 +52,7 @@ public class Main {
 		wordDict.add("dog");
 		wordDict.add("lot");
 		wordDict.add("log");
-		S127WordLadder S = new S127WordLadder();
+		WordLadder S = new WordLadder();
 		int res = S.ladderLength( beginWord,  endWord,  wordDict);
 		System.out.print(res);
 		
